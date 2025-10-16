@@ -24,4 +24,6 @@ public class CategoryEntity : BaseEntity<long>
 
     public virtual ICollection<ProductEntity>? Products { get; set; }
     public virtual ICollection<CategoryEntity> Children { get; set; } = [];
+    // 🔽 Додаємо зв’язок з перекладами
+    public virtual ICollection<CategoryTranslationEntity> Translations { get; set; } = [];
 }

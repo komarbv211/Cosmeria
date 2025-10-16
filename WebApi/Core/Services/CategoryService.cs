@@ -2,6 +2,7 @@
 using Core.DTOs.CategoryDTOs;
 using Core.Interfaces;
 using Infrastructure.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace Core.Services
 {
@@ -121,6 +122,40 @@ namespace Core.Services
                 await _categoryRepository.SaveAsync();
             }
         }
+
+        //public async Task<List<CategoryDto>> GetCategoriesAsync(string lang = "uk")
+        //{
+        //    var categories = await _categoryRepository.GetAllAsync()
+        //        .Include(c => c.Translations)
+        //        .Include(c => c.Children)
+        //            .ThenInclude(child => child.Translations)
+        //        .Where(c => c.ParentId == null)
+        //        .ToListAsync();
+
+        //    return categories.Select(cat => MapToDto(cat, lang)).ToList();
+        //}
+
+        //private CategoryDto MapToDto(CategoryEntity cat, string lang)
+        //{
+        //    var translation = cat.Translations.FirstOrDefault(t => t.Language == lang);
+
+        //    return new CategoryDto
+        //    {
+        //        Id = cat.Id,
+        //        UrlSlug = cat.UrlSlug,
+        //        Priority = cat.Priority,
+        //        Image = cat.Image,
+        //        ParentId = cat.ParentId,
+        //        Name = translation?.Name ?? "[no translation]",
+        //        Description = translation?.Description ?? "",
+
+        //        // Рекурсивно обробляємо дочірні категорії
+        //        Children = cat.Children?
+        //            .Select(child => MapToDto(child, lang))
+        //            .ToList() ?? []
+        //    };
+        //}
+
 
     }
 }
