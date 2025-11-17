@@ -10,6 +10,8 @@
         public string? Description { get; set; }
         public long? ParentId { get; set; }
 
+        public Dictionary<string, SeederTranslationModel> Translations { get; set; } = new();
+
         public IEnumerable<SeederCategoryModel>? Children { get; init; }
 
         ////public IEnumerable<String>? Filters { get; init; }

@@ -105,58 +105,147 @@ namespace WebApiDiploma.ServiceExtensions
             }
         }
 
+        //private static async Task SeedCategoriesAsync(WebApplication app, IServiceProvider serviceProvider)
+        //{
+        //    var categoryRepo = serviceProvider.GetService<IRepository<CategoryEntity>>();
+        //    var imageService = serviceProvider.GetRequiredService<IImageService>();
+
+        //    if (categoryRepo is not null && !await categoryRepo.AnyAsync())
+        //    {
+        //        Console.WriteLine("Start categories seeder");
+        //        string categoryJsonDataFile = Path.Combine(Environment.CurrentDirectory, "Helpers", app.Configuration["SeederJsonDir"]!, "Categories.json");
+        //        if (File.Exists(categoryJsonDataFile))
+        //        {
+        //            var filtersJson = File.ReadAllText(categoryJsonDataFile, Encoding.UTF8);
+        //            try
+        //            {
+        //                var categoryModels = JsonConvert.DeserializeObject<IEnumerable<SeederCategoryModel>>(filtersJson)
+        //                    ?? throw new JsonException();
+        //                foreach (var categoryModel in categoryModels)
+        //                {
+        //                    var parent = new CategoryEntity
+        //                    {
+        //                        Description = categoryModel.Description,
+        //                        Name = categoryModel.Name,
+        //                        ParentId = null,
+        //                        Priority = categoryModel.Priority,
+        //                        UrlSlug = categoryModel.UrlSlug
+        //                    };
+        //                    await categoryRepo.AddAsync(parent);
+        //                    await categoryRepo.SaveAsync();
+
+        //                    foreach (var malvina in categoryModel.Children)
+        //                    {
+        //                        var child = new CategoryEntity
+        //                        {
+        //                            Description = malvina.Description,
+        //                            Name = malvina.Name,
+        //                            ParentId = parent.Id,
+        //                            Priority = malvina.Priority,
+        //                            UrlSlug = malvina.UrlSlug
+        //                        };
+        //                        await categoryRepo.AddAsync(child);
+        //                        await categoryRepo.SaveAsync();
+        //                    }
+        //                }
+        //            }
+        //            catch (JsonException)
+        //            {
+        //                Console.WriteLine("Error deserialize categories json file");
+        //            }
+        //        }
+        //        else Console.WriteLine("File \"JsonData/Categories.json\" not found");
+        //    }
+        //}
+
+
         private static async Task SeedCategoriesAsync(WebApplication app, IServiceProvider serviceProvider)
         {
             var categoryRepo = serviceProvider.GetService<IRepository<CategoryEntity>>();
-            var imageService = serviceProvider.GetRequiredService<IImageService>();
+            var categoryTranslationRepo = serviceProvider.GetService<IRepository<CategoryTranslationEntity>>();
 
-            if (categoryRepo is not null && !await categoryRepo.AnyAsync())
+            if (categoryRepo is null || categoryTranslationRepo is null || await categoryRepo.AnyAsync())
+                return;
+
+            Console.WriteLine("Start categories seeder");
+
+            string categoryJsonDataFile = Path.Combine(
+                Environment.CurrentDirectory,
+                "Helpers",
+                app.Configuration["SeederJsonDir"]!,
+                "Categories.json");
+
+            if (!File.Exists(categoryJsonDataFile))
             {
-                Console.WriteLine("Start categories seeder");
-                string categoryJsonDataFile = Path.Combine(Environment.CurrentDirectory, "Helpers", app.Configuration["SeederJsonDir"]!, "Categories.json");
-                if (File.Exists(categoryJsonDataFile))
-                {
-                    var filtersJson = File.ReadAllText(categoryJsonDataFile, Encoding.UTF8);
-                    try
-                    {
-                        var categoryModels = JsonConvert.DeserializeObject<IEnumerable<SeederCategoryModel>>(filtersJson)
-                            ?? throw new JsonException();
-                        foreach (var categoryModel in categoryModels)
-                        {
-                            var parent = new CategoryEntity
-                            {
-                                Description = categoryModel.Description,
-                                Name = categoryModel.Name,
-                                ParentId = null,
-                                Priority = categoryModel.Priority,
-                                UrlSlug = categoryModel.UrlSlug
-                            };
-                            await categoryRepo.AddAsync(parent);
-                            await categoryRepo.SaveAsync();
+                Console.WriteLine("File \"Categories.json\" not found");
+                return;
+            }
 
-                            foreach (var malvina in categoryModel.Children)
-                            {
-                                var child = new CategoryEntity
-                                {
-                                    Description = malvina.Description,
-                                    Name = malvina.Name,
-                                    ParentId = parent.Id,
-                                    Priority = malvina.Priority,
-                                    UrlSlug = malvina.UrlSlug
-                                };
-                                await categoryRepo.AddAsync(child);
-                                await categoryRepo.SaveAsync();
-                            }
-                        }
-                    }
-                    catch (JsonException)
-                    {
-                        Console.WriteLine("Error deserialize categories json file");
-                    }
+            var jsonData = File.ReadAllText(categoryJsonDataFile, Encoding.UTF8);
+
+            try
+            {
+                var categoryModels = JsonConvert.DeserializeObject<IEnumerable<SeederCategoryModel>>(jsonData)
+                    ?? throw new JsonException();
+
+                foreach (var categoryModel in categoryModels)
+                {
+                    await AddCategoryWithTranslations(categoryModel, null, categoryRepo, categoryTranslationRepo);
                 }
-                else Console.WriteLine("File \"JsonData/Categories.json\" not found");
+            }
+            catch (JsonException)
+            {
+                Console.WriteLine("Error deserializing categories json file");
             }
         }
+
+        private static async Task AddCategoryWithTranslations(
+            SeederCategoryModel model,
+            long? parentId,
+            IRepository<CategoryEntity> categoryRepo,
+            IRepository<CategoryTranslationEntity> translationRepo)
+        {
+            var category = new CategoryEntity
+            {
+                ParentId = parentId,
+                Priority = model.Priority,
+                UrlSlug = model.UrlSlug
+            };
+
+            await categoryRepo.AddAsync(category);
+            await categoryRepo.SaveAsync();
+
+            // додаємо переклади
+            if (model.Translations != null)
+            {
+                foreach (var lang in model.Translations.Keys)
+                {
+                    var translation = model.Translations[lang];
+                    var categoryTranslation = new CategoryTranslationEntity
+                    {
+                        CategoryId = category.Id,
+                        Language = lang,
+                        Name = translation.Name,
+                        Description = translation.Description
+                    };
+                    await translationRepo.AddAsync(categoryTranslation);
+                }
+                await translationRepo.SaveAsync();
+            }
+
+            // рекурсивно додаємо дітей
+            if (model.Children != null)
+            {
+                foreach (var child in model.Children)
+                {
+                    await AddCategoryWithTranslations(child, category.Id, categoryRepo, translationRepo);
+                }
+            }
+        }
+
+
+
+
 
         private static async Task SeedProductsAsync(WebApplication app, IServiceProvider serviceProvider)
         {

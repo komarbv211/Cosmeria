@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection.Emit;
 
 namespace Infrastructure.Data
 {
@@ -26,6 +27,8 @@ namespace Infrastructure.Data
         public DbSet<NovaPostWarehouseEntity> NovaPostWarehouses { get; set; }
         public DbSet<WarehouseUpdateHistoryEntity> WarehouseUpdateHistories { get; set; }
         public DbSet<CommentEntity> Comments { get; set; }
+        public DbSet<CategoryTranslationEntity> CategoryTranslations { get; set; }
+
 
         // ✅ Нове
         public DbSet<FavoriteEntity> Favorites { get; set; }
@@ -117,6 +120,21 @@ namespace Infrastructure.Data
                     .WithMany(u => u.Favorites)
                     .HasForeignKey(f => f.UserId);
             });
+
+            // ✅ Конфігурація для Translation
+            builder.Entity<CategoryTranslationEntity>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+
+                entity.Property(e => e.Language)
+                      .HasMaxLength(2)
+                      .IsRequired();
+
+                entity.Property(e => e.Name)
+                      .HasMaxLength(200)
+                      .IsRequired();
+            });
+
         }
     }
 }

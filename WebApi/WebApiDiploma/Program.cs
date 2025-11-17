@@ -75,6 +75,9 @@ builder.Services.AddMvc(options =>
     options.Filters.Add<ValidationFilter>();
 });
 
+builder.Services.AddLocalizationSupport();
+builder.Services.AddMvcWithLocalization();
+
 // Build
 var app = builder.Build();
 
