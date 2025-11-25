@@ -123,6 +123,22 @@ namespace Core.Services
             }
         }
 
+        // 2️⃣ Метод отримання всіх категорій з перекладом
+        public async Task<List<CategoryDto>> GetCategoriesAsync(string lang = "uk")
+        {
+            lang = (lang?.ToLower() == "en") ? "en" : "uk";
+
+            // Отримуємо всі категорії з репозиторію
+            var categories = await _categoryRepository.GetAllWithTranslationsAsync();
+
+            // Беремо тільки кореневі категорії
+            var rootCategories = categories.Where(c => c.ParentId == null).ToList();
+
+            // Перетворюємо в DTO з перекладом
+            return rootCategories.Select(c => MapToDto(c, lang)).ToList();
+        }
+
+
         //public async Task<List<CategoryDto>> GetCategoriesAsync(string lang = "uk")
         //{
         //    var categories = await _categoryRepository.GetAllAsync()
@@ -135,26 +151,26 @@ namespace Core.Services
         //    return categories.Select(cat => MapToDto(cat, lang)).ToList();
         //}
 
-        //private CategoryDto MapToDto(CategoryEntity cat, string lang)
-        //{
-        //    var translation = cat.Translations.FirstOrDefault(t => t.Language == lang);
+        private CategoryDto MapToDto(CategoryEntity cat, string lang)
+        {
+            var translation = cat.Translations.FirstOrDefault(t => t.Language == lang);
 
-        //    return new CategoryDto
-        //    {
-        //        Id = cat.Id,
-        //        UrlSlug = cat.UrlSlug,
-        //        Priority = cat.Priority,
-        //        Image = cat.Image,
-        //        ParentId = cat.ParentId,
-        //        Name = translation?.Name ?? "[no translation]",
-        //        Description = translation?.Description ?? "",
+            return new CategoryDto
+            {
+                Id = cat.Id,
+                UrlSlug = cat.UrlSlug,
+                Priority = cat.Priority,
+                Image = cat.Image,
+                ParentId = cat.ParentId,
+                Name = translation?.Name ?? "[no translation]",
+                Description = translation?.Description ?? "",
 
-        //        // Рекурсивно обробляємо дочірні категорії
-        //        Children = cat.Children?
-        //            .Select(child => MapToDto(child, lang))
-        //            .ToList() ?? []
-        //    };
-        //}
+                // Рекурсивно обробляємо дочірні категорії
+                Children = cat.Children?
+                    .Select(child => MapToDto(child, lang))
+                    .ToList() ?? []
+            };
+        }
 
 
     }

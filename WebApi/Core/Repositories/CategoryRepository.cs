@@ -129,6 +129,16 @@ public class CategoryRepository : Repository<CategoryEntity>, ICategoryRepositor
         return await context.Categories
             .AnyAsync(c => c.Name == name && c.Id != excludedId);
     }
+
+    public async Task<List<CategoryEntity>> GetAllWithTranslationsAsync()
+    {
+        return await context.Categories
+            .Include(c => c.Translations)
+            .Include(c => c.Children)
+                .ThenInclude(ch => ch.Translations)
+            .ToListAsync();
+    }
+
     //public async Task<CategoryEntity?> GetByIdAsync(long id)
     //{
     //    return await context.Users.FirstOrDefaultAsync(u => u.Id == id);
