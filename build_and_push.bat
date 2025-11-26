@@ -18,16 +18,16 @@ echo Changing directory client...
 cd "client_app"
 
 echo Building Docker image client...
-docker build -t makeup-client .
+docker build -t cosmeria-client .
 
 echo Docker login...
 docker login
 
 echo Tagging Docker image client...
-docker tag makeup-client:latest novakvova/makeup-client:latest
+docker tag cosmeria-client:latest komarandrii/cosmeria-client:latest
 
 echo Pushing Docker image client to repository...
-docker push novakvova/makeup-client:latest
+docker push komarandrii/cosmeria-client:latest
 
 echo Done ---client---!
 
@@ -36,13 +36,13 @@ cd ".."
 cd "WebApi"
 
 echo Building Docker image api...
-docker build -t makeup-asp-api . 
+docker build -t cosmeria-asp-api . 
 
 echo Tagging Docker image api...
-docker tag makeup-asp-api:latest novakvova/makeup-asp-api:latest
+docker tag cosmeria-asp-api:latest komarandrii/cosmeria-asp-api:latest
 
 echo Pushing Docker image api to repository...
-docker push novakvova/makeup-asp-api:latest
+docker push komarandrii/cosmeria-asp-api:latest
 
 echo Done ---api---!
 pause
