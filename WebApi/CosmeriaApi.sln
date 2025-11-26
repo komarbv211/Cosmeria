@@ -10,7 +10,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{B5D3A362-9D98-4C0A-89D3-9F29A62CF4E8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiDiploma", "WebApiDiploma\WebApiDiploma.csproj", "{F100DCE5-4B17-47EE-A508-5DB36EF626EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiCosmeria", "WebApiDiploma\WebApiCosmeria.csproj", "{F100DCE5-4B17-47EE-A508-5DB36EF626EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
