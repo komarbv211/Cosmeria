@@ -12,33 +12,33 @@ services:
       POSTGRES_PASSWORD: p%rSDj4Imds0763300sfgs7djc**dmUntdOidd3dZ_#WTi4B9Zo
       POSTGRES_DB: cosmeria
     volumes:
-      - /volumes/makeup/postgres/data:/var/lib/makeup/data
+      - /volumes/cosmeria/postgres/data:/var/lib/cosmeria/data
     ports:
       - "5432:5432"
     networks:
       - myAppNetwork
     restart: unless-stopped
   app:
-    container_name: makeup_container
-    image: novakvova/makeup-asp-api
+    container_name: cosmeria_container
+    image: komarandrii/cosmeria-asp-api
     ports:
       - "5817:8080"  
     networks:
       - myAppNetwork
     environment:
         ConnectionStrings__DefaultConnection: "Host=db;Database=cosmeria;Username=krot;Password=p%rSDj4Imds0763300sfgs7djc**dmUntdOidd3dZ_#WTi4B9Zo"
-        Cors__AllowedOrigins: "https://makeup.itstep.click"
+        Cors__AllowedOrigins: "https://cosmeria.rivne.click"
     volumes:
-      - /volumes/makeup-asp/backup:/app/backup 
-      - /volumes/makeup-asp/images:/app/uploading
+      - /volumes/cosmeria-asp/backup:/app/backup 
+      - /volumes/cosmeria-asp/images:/app/uploading
     deploy:
       restart_policy:
         condition: on-failure
         max_attempts: 5
 
   client:
-    container_name: makeup_client_container
-    image: novakvova/makeup-client
+    container_name: cosmeria_client_container
+    image: komarandrii/cosmeria-client
     restart: on-failure
     ports:
       - "5092:80"  

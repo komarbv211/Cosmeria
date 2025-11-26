@@ -5,10 +5,10 @@ set -e
 server_up() {
     echo "Server up..."
     docker compose pull
-    docker stop makeup_container || true
-    docker rm makeup_container || true
-    docker stop makeup_client_container || true
-    docker rm makeup_client_container || true
+    docker stop cosmeria_container || true
+    docker rm cosmeria_container || true
+    docker stop cosmeria_client_container || true
+    docker rm cosmeria_client_container || true
     docker compose up -d
 }
 
@@ -19,18 +19,18 @@ start_containers() {
 
 stop_containers() {
     echo "Containers stop..."
-    docker stop makeup_container || true
-    docker rm makeup_container || true
-    docker stop makeup_client_container || true
-    docker rm makeup_client_container || true
+    docker stop cosmeria_container || true
+    docker rm cosmeria_container || true
+    docker stop cosmeria_client_container || true
+    docker rm cosmeria_client_container || true
 }
 
 restart_containers() {
     echo "Containers restart..."
-    docker stop makeup_container || true
-    docker rm makeup_container || true
-    docker stop makeup_client_container || true
-    docker rm makeup_client_container || true
+    docker stop cosmeria_container || true
+    docker rm cosmeria_container || true
+    docker stop cosmeria_client_container || true
+    docker rm cosmeria_client_container || true
     docker compose up -d
 }
 
