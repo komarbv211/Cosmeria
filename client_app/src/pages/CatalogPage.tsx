@@ -239,6 +239,7 @@ import { useGetRandomCommentsQuery } from "../services/productCommentsApi";
 import ReviewProductCard from "../components/comments/ReviewProductCard";
 import Product_3_Carousel from "../components/Product_3_Carousel";
 import { useTranslation } from "react-i18next";
+import Breadcrumbs from "../components/breadcrumbs/Breadcrumbs";
 
 const CatalogPage: React.FC = () => {
   const { t } = useTranslation();
@@ -317,7 +318,14 @@ const CatalogPage: React.FC = () => {
         </div>
       </div>
 
+      {/* Content */}
+ 
+
       <div className="w-full lg:w-[76.5%] flex flex-col gap-6 m-0 p-0">
+        
+           <Breadcrumbs categoryId={Number(id)} />
+
+        {/* Banner */}
         <div className="w-full aspect-[284/153] bg-[url('/parfum_banner.png')] bg-lightgray bg-center bg-cover bg-no-repeat rounded-lg overflow-hidden">
           {category?.image && (
             <img
