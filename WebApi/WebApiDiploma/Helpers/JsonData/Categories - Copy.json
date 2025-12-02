@@ -1,11 +1,9 @@
 ﻿//Парфумерія,Макіяж,Обличчя,Волосся,Тіло,Здоров'я і погляд,Аксесуари і техніка,Одяг, Чоловікам,Подарунки,Бренди
-[
 
+[
   {
-    "Id": 1,
     "UrlSlug": "parfumeriya",
     "Priority": 1,
-    "DateCreated": "2025-03-20T00:00:00Z",
     "Translations": {
       "uk": {
         "Name": "Парфумерія",
@@ -18,11 +16,8 @@
     },
     "Children": [
       {
-        "Id": 2,
         "UrlSlug": "zhinocha-parfumeriya",
         "Priority": 1,
-        "DateCreated": "2025-03-20T00:00:00Z",
-        "ParentId": 1,
         "Translations": {
           "uk": {
             "Name": "Жіноча парфумерія",
@@ -35,11 +30,8 @@
         }
       },
       {
-        "Id": 3,
         "UrlSlug": "cholovicha-parfumeriya",
         "Priority": 2,
-        "DateCreated": "2025-03-20T00:00:00Z",
-        "ParentId": 1,
         "Translations": {
           "uk": {
             "Name": "Чоловіча парфумерія",
@@ -52,11 +44,8 @@
         }
       },
       {
-        "Id": 4,
         "UrlSlug": "parfumeriya-unisex",
         "Priority": 3,
-        "DateCreated": "2025-03-20T00:00:00Z",
-        "ParentId": 1,
         "Translations": {
           "uk": {
             "Name": "Парфумерія унісекс",
@@ -69,11 +58,8 @@
         }
       },
       {
-        "Id": 5,
         "UrlSlug": "dityacha-parfumeriya",
         "Priority": 4,
-        "DateCreated": "2025-03-20T00:00:00Z",
-        "ParentId": 1,
         "Translations": {
           "uk": {
             "Name": "Дитяча парфумерія",
@@ -86,11 +72,8 @@
         }
       },
       {
-        "Id": 6,
         "UrlSlug": "wonder-bundle",
         "Priority": 5,
-        "DateCreated": "2025-03-20T00:00:00Z",
-        "ParentId": 1,
         "Translations": {
           "uk": {
             "Name": "Wonder Bundle",
@@ -103,11 +86,8 @@
         }
       },
       {
-        "Id": 7,
         "UrlSlug": "nabori",
         "Priority": 6,
-        "DateCreated": "2025-03-20T00:00:00Z",
-        "ParentId": 1,
         "Translations": {
           "uk": {
             "Name": "Набори",
@@ -120,11 +100,8 @@
         }
       },
       {
-        "Id": 8,
         "UrlSlug": "miniatyury",
         "Priority": 7,
-        "DateCreated": "2025-03-20T00:00:00Z",
-        "ParentId": 1,
         "Translations": {
           "uk": {
             "Name": "Мініатюри",
@@ -137,11 +114,8 @@
         }
       },
       {
-        "Id": 9,
         "UrlSlug": "parfiumovana-voda",
         "Priority": 8,
-        "DateCreated": "2025-03-20T00:00:00Z",
-        "ParentId": 1,
         "Translations": {
           "uk": {
             "Name": "Парфумована вода",
@@ -154,11 +128,8 @@
         }
       },
       {
-        "Id": 10,
         "UrlSlug": "tualetna-voda",
         "Priority": 9,
-        "DateCreated": "2025-03-20T00:00:00Z",
-        "ParentId": 1,
         "Translations": {
           "uk": {
             "Name": "Туалетна вода",
@@ -171,11 +142,8 @@
         }
       },
       {
-        "Id": 11,
         "UrlSlug": "odekolon",
         "Priority": 10,
-        "DateCreated": "2025-03-20T00:00:00Z",
-        "ParentId": 1,
         "Translations": {
           "uk": {
             "Name": "Одеколон",
@@ -188,11 +156,8 @@
         }
       },
       {
-        "Id": 12,
         "UrlSlug": "maslyani-duhi",
         "Priority": 11,
-        "DateCreated": "2025-03-20T00:00:00Z",
-        "ParentId": 1,
         "Translations": {
           "uk": {
             "Name": "Масляні духи",
@@ -205,11 +170,8 @@
         }
       },
       {
-        "Id": 13,
         "UrlSlug": "light-spring-scents",
         "Priority": 12,
-        "DateCreated": "2025-03-20T00:00:00Z",
-        "ParentId": 1,
         "Translations": {
           "uk": {
             "Name": "Легкі весняні аромати",
@@ -222,11 +184,8 @@
         }
       },
       {
-        "Id": 14,
         "UrlSlug": "elitna-parfumeriya",
         "Priority": 13,
-        "DateCreated": "2025-03-20T00:00:00Z",
-        "ParentId": 1,
         "Translations": {
           "uk": {
             "Name": "Елітна парфумерія",
@@ -239,11 +198,8 @@
         }
       },
       {
-        "Id": 15,
         "UrlSlug": "arabska-parfumeriya",
         "Priority": 14,
-        "DateCreated": "2025-03-20T00:00:00Z",
-        "ParentId": 1,
         "Translations": {
           "uk": {
             "Name": "Арабська парфумерія",
@@ -254,2663 +210,2940 @@
             "Description": "Arabic perfumes"
           }
         }
-      },
-      {
-        "Id": 16,
-        "UrlSlug": "atomayzery",
-        "Priority": 15,
-        "DateCreated": "2025-03-20T00:00:00Z",
-        "ParentId": 1,
-        "Translations": {
-          "uk": {
-            "Name": "Атомайзери",
-            "Description": "Атомайзери для парфумів"
-          },
-          "en": {
-            "Name": "Atomizers",
-            "Description": "Perfume atomizers"
-          }
-        }
-      },
-      {
-        "Id": 17,
-        "UrlSlug": "aromaty-dlya-domu",
-        "Priority": 16,
-        "DateCreated": "2025-03-20T00:00:00Z",
-        "ParentId": 1,
-        "Translations": {
-          "uk": {
-            "Name": "Аромати для дому",
-            "Description": "Аромати для дому"
-          },
-          "en": {
-            "Name": "Home Fragrances",
-            "Description": "Home fragrances"
-          }
-        }
       }
     ]
-  },
-
-  {
-    "Id": 18,
-    "UrlSlug": "makiyazh",
-    "Priority": 1,
-    "Image": "makiyazh_image.jpg",
-    "IsDeleted": false,
-    "DateCreated": "2025-03-25T00:00:00Z",
-    "Translations": {
-      "uk": {
-        "Name": "Макіяж",
-        "Description": "Продукти для макіяжу"
-      },
-      "en": {
-        "Name": "Makeup",
-        "Description": "Makeup products"
-      }
-    },
-    "Children": [
-      {
-        "Id": 19,
-        "UrlSlug": "ochi",
-        "Priority": 1,
-        "Image": "ochi.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 18,
-        "Translations": {
-          "uk": {
-            "Name": "Очі",
-            "Description": "Макіяж для очей"
-          },
-          "en": {
-            "Name": "Eyes",
-            "Description": "Eye makeup"
-          }
-        }
-      },
-      {
-        "Id": 20,
-        "UrlSlug": "brovy",
-        "Priority": 2,
-        "Image": "brovy.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 18,
-        "Translations": {
-          "uk": {
-            "Name": "Брови",
-            "Description": "Макіяж для брів"
-          },
-          "en": {
-            "Name": "Eyebrows",
-            "Description": "Eyebrow makeup"
-          }
-        }
-      },
-      {
-        "Id": 21,
-        "UrlSlug": "huby",
-        "Priority": 3,
-        "Image": "huby.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 18,
-        "Translations": {
-          "uk": {
-            "Name": "Губи",
-            "Description": "Макіяж для губ"
-          },
-          "en": {
-            "Name": "Lips",
-            "Description": "Lip makeup"
-          }
-        }
-      },
-      {
-        "Id": 22,
-        "UrlSlug": "oblychchya",
-        "Priority": 4,
-        "Image": "oblychchya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 18,
-        "Translations": {
-          "uk": {
-            "Name": "Обличчя",
-            "Description": "Макіяж для обличчя"
-          },
-          "en": {
-            "Name": "Face",
-            "Description": "Face makeup"
-          }
-        }
-      },
-      {
-        "Id": 23,
-        "UrlSlug": "penzli",
-        "Priority": 5,
-        "Image": "penzli.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 18,
-        "Translations": {
-          "uk": {
-            "Name": "Пензлі",
-            "Description": "Пензлі для макіяжу"
-          },
-          "en": {
-            "Name": "Brushes",
-            "Description": "Makeup brushes"
-          }
-        }
-      },
-      {
-        "Id": 24,
-        "UrlSlug": "demakiyazh",
-        "Priority": 6,
-        "Image": "demakiyazh.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 18,
-        "Translations": {
-          "uk": {
-            "Name": "Демакіяж",
-            "Description": "Засоби для демакіяжу"
-          },
-          "en": {
-            "Name": "Makeup Removal",
-            "Description": "Products for makeup removal"
-          }
-        }
-      },
-      {
-        "Id": 25,
-        "UrlSlug": "nihti",
-        "Priority": 7,
-        "Image": "nihti.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 18,
-        "Translations": {
-          "uk": {
-            "Name": "Нігті",
-            "Description": "Продукти для догляду за нігтями"
-          },
-          "en": {
-            "Name": "Nails",
-            "Description": "Nail care products"
-          }
-        }
-      },
-      {
-        "Id": 26,
-        "UrlSlug": "paletka-dlya-makiyazhu",
-        "Priority": 8,
-        "Image": "paletka_dlya_makiyazhu.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 18,
-        "Translations": {
-          "uk": {
-            "Name": "Палетка для макіяжу",
-            "Description": "Палетки для макіяжу"
-          },
-          "en": {
-            "Name": "Makeup Palette",
-            "Description": "Makeup palettes"
-          }
-        }
-      },
-      {
-        "Id": 27,
-        "UrlSlug": "miniatyury",
-        "Priority": 9,
-        "Image": "miniatyury.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 18,
-        "Translations": {
-          "uk": {
-            "Name": "Мініатюри",
-            "Description": "Мініатюрні версії продукції для макіяжу"
-          },
-          "en": {
-            "Name": "Miniatures",
-            "Description": "Mini versions of makeup products"
-          }
-        }
-      }
-    ]
-  },
-  {
-    "Id": 28,
-    "UrlSlug": "oblychchya",
-    "Priority": 1,
-    "Image": "oblychchya_image.jpg",
-    "IsDeleted": false,
-    "DateCreated": "2025-03-25T00:00:00Z",
-    "Translations": {
-      "uk": {
-        "Name": "Обличчя",
-        "Description": "Продукти для догляду за обличчям"
-      },
-      "en": {
-        "Name": "Face",
-        "Description": "Products for facial care"
-      }
-    },
-    "Children": [
-      {
-        "Id": 29,
-        "UrlSlug": "krem-dlya-oblychchya",
-        "Priority": 1,
-        "Image": "krem_dlya_oblychchya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 28,
-        "Translations": {
-          "uk": {
-            "Name": "Крем для обличчя",
-            "Description": "Креми для догляду за обличчям"
-          },
-          "en": {
-            "Name": "Face Cream",
-            "Description": "Creams for facial care"
-          }
-        }
-      },
-      {
-        "Id": 30,
-        "UrlSlug": "maski-dlya-oblychchya",
-        "Priority": 2,
-        "Image": "maski_dlya_oblychchya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 28,
-        "Translations": {
-          "uk": {
-            "Name": "Маски для обличчя",
-            "Description": "Маски для обличчя"
-          },
-          "en": {
-            "Name": "Face Masks",
-            "Description": "Facial masks"
-          }
-        }
-      },
-      {
-        "Id": 31,
-        "UrlSlug": "balzami-dlya-oblychchya",
-        "Priority": 3,
-        "Image": "balzami_dlya_oblychchya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 28,
-        "Translations": {
-          "uk": {
-            "Name": "Бальзами для обличчя",
-            "Description": "Бальзами для обличчя"
-          },
-          "en": {
-            "Name": "Face Balms",
-            "Description": "Balms for face care"
-          }
-        }
-      },
-      {
-        "Id": 32,
-        "UrlSlug": "fliudy-dlya-oblychchya",
-        "Priority": 4,
-        "Image": "fliudy_dlya_oblychchya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 28,
-        "Translations": {
-          "uk": {
-            "Name": "Флюїди для обличчя",
-            "Description": "Флюїди для обличчя"
-          },
-          "en": {
-            "Name": "Face Fluids",
-            "Description": "Facial fluids"
-          }
-        }
-      },
-      {
-        "Id": 33,
-        "UrlSlug": "sirovatki-eliksyry",
-        "Priority": 5,
-        "Image": "sirovatki_eliksyry.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 28,
-        "Translations": {
-          "uk": {
-            "Name": "Сироватки, еліксири",
-            "Description": "Сироватки та еліксири для обличчя"
-          },
-          "en": {
-            "Name": "Serums and Elixirs",
-            "Description": "Facial serums and elixirs"
-          }
-        }
-      },
-      {
-        "Id": 34,
-        "UrlSlug": "maslo-ta-olii-dlya-oblychchya",
-        "Priority": 6,
-        "Image": "maslo_ta_olii_dlya_oblychchya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 28,
-        "Translations": {
-          "uk": {
-            "Name": "Масло та олія для обличчя",
-            "Description": "Масла та олії для обличчя"
-          },
-          "en": {
-            "Name": "Face Oils",
-            "Description": "Oils for face care"
-          }
-        }
-      },
-      {
-        "Id": 35,
-        "UrlSlug": "aromatychna-voda-sprey",
-        "Priority": 7,
-        "Image": "aromatychna_voda_sprey.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 28,
-        "Translations": {
-          "uk": {
-            "Name": "Ароматична вода, спрей",
-            "Description": "Ароматична вода та спреї для обличчя"
-          },
-          "en": {
-            "Name": "Aromatic Water & Sprays",
-            "Description": "Aromatic facial waters and sprays"
-          }
-        }
-      },
-      {
-        "Id": 36,
-        "UrlSlug": "termalna-voda",
-        "Priority": 8,
-        "Image": "termalna_voda.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 28,
-        "Translations": {
-          "uk": {
-            "Name": "Термальна вода",
-            "Description": "Термальна вода для обличчя"
-          },
-          "en": {
-            "Name": "Thermal Water",
-            "Description": "Thermal facial water"
-          }
-        }
-      },
-      {
-        "Id": 37,
-        "UrlSlug": "ochyshchennya",
-        "Priority": 9,
-        "Image": "ochyshchennya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 28,
-        "Translations": {
-          "uk": {
-            "Name": "Очищення",
-            "Description": "Засоби для очищення обличчя"
-          },
-          "en": {
-            "Name": "Cleansing",
-            "Description": "Facial cleansing products"
-          }
-        }
-      },
-      {
-        "Id": 38,
-        "UrlSlug": "antyviko",
-        "Priority": 10,
-        "Image": "antyviko.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 28,
-        "Translations": {
-          "uk": {
-            "Name": "Антивікові",
-            "Description": "Антивікові засоби для обличчя"
-          },
-          "en": {
-            "Name": "Anti-Aging",
-            "Description": "Anti-aging facial care products"
-          }
-        }
-      },
-      {
-        "Id": 39,
-        "UrlSlug": "tonizuyuchi",
-        "Priority": 11,
-        "Image": "tonizuyuchi.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 28,
-        "Translations": {
-          "uk": {
-            "Name": "Тонізуючі",
-            "Description": "Тонізуючі засоби для обличчя"
-          },
-          "en": {
-            "Name": "Toning",
-            "Description": "Toning products for the face"
-          }
-        }
-      },
-      {
-        "Id": 40,
-        "UrlSlug": "matuyuchi",
-        "Priority": 12,
-        "Image": "matuyuchi.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 28,
-        "Translations": {
-          "uk": {
-            "Name": "Матуючі",
-            "Description": "Матуючі засоби для обличчя"
-          },
-          "en": {
-            "Name": "Mattifying",
-            "Description": "Mattifying facial products"
-          }
-        }
-      },
-      {
-        "Id": 41,
-        "UrlSlug": "zhyvlennya",
-        "Priority": 13,
-        "Image": "zhyvlennya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 28,
-        "Translations": {
-          "uk": {
-            "Name": "Живлення",
-            "Description": "Засоби для живлення шкіри обличчя"
-          },
-          "en": {
-            "Name": "Nourishing",
-            "Description": "Nourishing facial products"
-          }
-        }
-      },
-      {
-        "Id": 42,
-        "UrlSlug": "zvolozhennya",
-        "Priority": 14,
-        "Image": "zvolozhennya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 28,
-        "Translations": {
-          "uk": {
-            "Name": "Зволоження",
-            "Description": "Засоби для зволоження обличчя"
-          },
-          "en": {
-            "Name": "Moisturizing",
-            "Description": "Moisturizing products for the face"
-          }
-        }
-      },
-      {
-        "Id": 43,
-        "UrlSlug": "zahyst-vid-sontsya",
-        "Priority": 15,
-        "Image": "zahyst_vid_sontsya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 28,
-        "Translations": {
-          "uk": {
-            "Name": "Захист від сонця",
-            "Description": "Засоби для захисту від сонця"
-          },
-          "en": {
-            "Name": "Sun Protection",
-            "Description": "Sun protection products"
-          }
-        }
-      },
-      {
-        "Id": 44,
-        "UrlSlug": "dohlyad-dlya-ochey",
-        "Priority": 16,
-        "Image": "dohlyad_dlya_ochey.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 28,
-        "Translations": {
-          "uk": {
-            "Name": "Догляд для очей",
-            "Description": "Засоби для догляду за очима"
-          },
-          "en": {
-            "Name": "Eye Care",
-            "Description": "Eye care products"
-          }
-        }
-      },
-      {
-        "Id": 45,
-        "UrlSlug": "dohlyad-za-hubamy",
-        "Priority": 17,
-        "Image": "dohlyad_za_hubamy.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 28,
-        "Translations": {
-          "uk": {
-            "Name": "Догляд за губами",
-            "Description": "Засоби для догляду за губами"
-          },
-          "en": {
-            "Name": "Lip Care",
-            "Description": "Products for lip care"
-          }
-        }
-      },
-      {
-        "Id": 46,
-        "UrlSlug": "zasoby-golinnya-dlya-cholovikiv",
-        "Priority": 18,
-        "Image": "zasoby_golinnya_dlya_cholovikiv.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 28,
-        "Translations": {
-          "uk": {
-            "Name": "Засоби гоління для чоловіків",
-            "Description": "Засоби для гоління для чоловіків"
-          },
-          "en": {
-            "Name": "Men’s Shaving Products",
-            "Description": "Shaving products for men"
-          }
-        }
-      },
-      {
-        "Id": 47,
-        "UrlSlug": "kosmetychni-shchitky",
-        "Priority": 19,
-        "Image": "kosmetychni_shchitky.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 28,
-        "Translations": {
-          "uk": {
-            "Name": "Косметичні щітки",
-            "Description": "Косметичні щітки для обличчя"
-          },
-          "en": {
-            "Name": "Cosmetic Brushes",
-            "Description": "Facial cosmetic brushes"
-          }
-        }
-      },
-      {
-        "Id": 48,
-        "UrlSlug": "spetszasoby",
-        "Priority": 20,
-        "Image": "spetszasoby.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 28,
-        "Translations": {
-          "uk": {
-            "Name": "Спецзасоби",
-            "Description": "Спеціальні засоби для догляду за обличчям"
-          },
-          "en": {
-            "Name": "Special Products",
-            "Description": "Special face care products"
-          }
-        }
-      }
-    ]
-  },
-  {
-    "Id": 49,
-    "UrlSlug": "volossya",
-    "Priority": 1,
-    "Image": "volossya_image.jpg",
-    "IsDeleted": false,
-    "DateCreated": "2025-03-25T00:00:00Z",
-    "Translations": {
-      "uk": {
-        "Name": "Волосся",
-        "Description": "Продукти для догляду за волоссям"
-      },
-      "en": {
-        "Name": "Hair",
-        "Description": "Hair care products"
-      }
-    },
-    "Children": [
-      {
-        "Id": 50,
-        "UrlSlug": "shampuni",
-        "Priority": 1,
-        "Image": "shampuni.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 49,
-        "Translations": {
-          "uk": {
-            "Name": "Шампуні",
-            "Description": "Шампуні для волосся"
-          },
-          "en": {
-            "Name": "Shampoos",
-            "Description": "Shampoos for hair"
-          }
-        }
-      },
-      {
-        "Id": 51,
-        "UrlSlug": "opoliskuvach-dlya-volossya",
-        "Priority": 2,
-        "Image": "opoliskuvach_dlya_volossya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 49,
-        "Translations": {
-          "uk": {
-            "Name": "Ополіскувач для волосся",
-            "Description": "Ополіскувачі для волосся"
-          },
-          "en": {
-            "Name": "Hair Rinse",
-            "Description": "Hair rinses"
-          }
-        }
-      },
-      {
-        "Id": 52,
-        "UrlSlug": "balzam-dlya-volossya",
-        "Priority": 3,
-        "Image": "balzam_dlya_volossya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 49,
-        "Translations": {
-          "uk": {
-            "Name": "Бальзам для волосся",
-            "Description": "Бальзами для волосся"
-          },
-          "en": {
-            "Name": "Hair Balm",
-            "Description": "Hair balms"
-          }
-        }
-      },
-      {
-        "Id": 53,
-        "UrlSlug": "kondytsioner",
-        "Priority": 4,
-        "Image": "kondytsioner.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 49,
-        "Translations": {
-          "uk": {
-            "Name": "Кондиціонер",
-            "Description": "Кондиціонери для волосся"
-          },
-          "en": {
-            "Name": "Conditioner",
-            "Description": "Hair conditioners"
-          }
-        }
-      },
-      {
-        "Id": 54,
-        "UrlSlug": "maski-dlya-volossya",
-        "Priority": 5,
-        "Image": "maski_dlya_volossya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 49,
-        "Translations": {
-          "uk": {
-            "Name": "Маски для волосся",
-            "Description": "Маски для волосся"
-          },
-          "en": {
-            "Name": "Hair Masks",
-            "Description": "Hair masks"
-          }
-        }
-      },
-      {
-        "Id": 55,
-        "UrlSlug": "skrab-i-piling-dlya-shkiry-golovy",
-        "Priority": 6,
-        "Image": "skrab_i_piling_dlya_shkiry_golovy.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 49,
-        "Translations": {
-          "uk": {
-            "Name": "Скраб і пілінг для шкіри голови",
-            "Description": "Скраби та пілінги для шкіри голови"
-          },
-          "en": {
-            "Name": "Scalp Scrub and Peel",
-            "Description": "Scrubs and peels for scalp"
-          }
-        }
-      },
-      {
-        "Id": 56,
-        "UrlSlug": "vid-lupy",
-        "Priority": 7,
-        "Image": "vid_lupy.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 49,
-        "Translations": {
-          "uk": {
-            "Name": "Від лупи",
-            "Description": "Засоби проти лупи"
-          },
-          "en": {
-            "Name": "Anti-Dandruff",
-            "Description": "Anti-dandruff products"
-          }
-        }
-      },
-      {
-        "Id": 57,
-        "UrlSlug": "losyon-dlya-volossya",
-        "Priority": 8,
-        "Image": "losyon_dlya_volossya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 49,
-        "Translations": {
-          "uk": {
-            "Name": "Лосьйон для волосся",
-            "Description": "Лосьйони для волосся"
-          },
-          "en": {
-            "Name": "Hair Lotion",
-            "Description": "Hair lotions"
-          }
-        }
-      },
-      {
-        "Id": 58,
-        "UrlSlug": "oliya-ta-maslo-dlya-volossya",
-        "Priority": 9,
-        "Image": "oliya_ta_maslo_dlya_volossya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 49,
-        "Translations": {
-          "uk": {
-            "Name": "Олія та масло для волосся",
-            "Description": "Олії та масла для волосся"
-          },
-          "en": {
-            "Name": "Hair Oils",
-            "Description": "Hair oils and butters"
-          }
-        }
-      },
-      {
-        "Id": 59,
-        "UrlSlug": "sirovatky-fliudy-dlya-volossya",
-        "Priority": 10,
-        "Image": "sirovatky_fliudy_dlya_volossya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 49,
-        "Translations": {
-          "uk": {
-            "Name": "Сироватки, флюїди для волосся",
-            "Description": "Сироватки та флюїди для волосся"
-          },
-          "en": {
-            "Name": "Hair Serums and Fluids",
-            "Description": "Serums and fluids for hair"
-          }
-        }
-      },
-      {
-        "Id": 60,
-        "UrlSlug": "krem-dlya-volossya",
-        "Priority": 11,
-        "Image": "krem_dlya_volossya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 49,
-        "Translations": {
-          "uk": {
-            "Name": "Крем для волосся",
-            "Description": "Креми для волосся"
-          },
-          "en": {
-            "Name": "Hair Cream",
-            "Description": "Hair creams"
-          }
-        }
-      },
-      {
-        "Id": 61,
-        "UrlSlug": "sprey-dlya-volossya",
-        "Priority": 12,
-        "Image": "sprey_dlya_volossya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 49,
-        "Translations": {
-          "uk": {
-            "Name": "Спрей для волосся",
-            "Description": "Спреї для волосся"
-          },
-          "en": {
-            "Name": "Hair Spray",
-            "Description": "Hair sprays"
-          }
-        }
-      },
-      {
-        "Id": 62,
-        "UrlSlug": "keratyn-dlya-volossya",
-        "Priority": 13,
-        "Image": "keratyn_dlya_volossya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 49,
-        "Translations": {
-          "uk": {
-            "Name": "Кератин для волосся",
-            "Description": "Кератин для волосся"
-          },
-          "en": {
-            "Name": "Hair Keratin",
-            "Description": "Keratin for hair"
-          }
-        }
-      },
-      {
-        "Id": 63,
-        "UrlSlug": "zasoby-vid-vypadinnya-volossya",
-        "Priority": 14,
-        "Image": "zasoby_vid_vypadinnya_volossya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 49,
-        "Translations": {
-          "uk": {
-            "Name": "Засоби від випадіння волосся",
-            "Description": "Продукти для зміцнення волосся та запобігання випадінню"
-          },
-          "en": {
-            "Name": "Anti-Hair Loss",
-            "Description": "Products to strengthen hair and prevent hair loss"
-          }
-        }
-      },
-      {
-        "Id": 64,
-        "UrlSlug": "lak-dlya-volossya",
-        "Priority": 15,
-        "Image": "lak_dlya_volossya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 49,
-        "Translations": {
-          "uk": {
-            "Name": "Лак для волосся",
-            "Description": "Лаки для волосся"
-          },
-          "en": {
-            "Name": "Hair Lacquer",
-            "Description": "Hair lacquers"
-          }
-        }
-      },
-      {
-        "Id": 65,
-        "UrlSlug": "mousse-dlya-volossya",
-        "Priority": 16,
-        "Image": "mousse_dlya_volossya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 49,
-        "Translations": {
-          "uk": {
-            "Name": "Мус для волосся",
-            "Description": "Муси для волосся"
-          },
-          "en": {
-            "Name": "Hair Mousse",
-            "Description": "Hair mousses"
-          }
-        }
-      },
-      {
-        "Id": 66,
-        "UrlSlug": "glos-dlya-volossya",
-        "Priority": 17,
-        "Image": "glos_dlya_volossya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 49,
-        "Translations": {
-          "uk": {
-            "Name": "Гліс для волосся",
-            "Description": "Гліси для волосся"
-          },
-          "en": {
-            "Name": "Hair Gloss",
-            "Description": "Hair gloss products"
-          }
-        }
-      },
-      {
-        "Id": 67,
-        "UrlSlug": "shampuni-dlya-barberiv",
-        "Priority": 18,
-        "Image": "shampuni_dlya_barberiv.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 49,
-        "Translations": {
-          "uk": {
-            "Name": "Шампуні для барберів",
-            "Description": "Спеціальні шампуні для чоловічого волосся"
-          },
-          "en": {
-            "Name": "Barber Shampoos",
-            "Description": "Special shampoos for men's hair"
-          }
-        }
-      },
-      {
-        "Id": 68,
-        "UrlSlug": "maski-dlya-barberiv",
-        "Priority": 19,
-        "Image": "maski_dlya_barberiv.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 49,
-        "Translations": {
-          "uk": {
-            "Name": "Маски для барберів",
-            "Description": "Маски для чоловічого волосся"
-          },
-          "en": {
-            "Name": "Barber Masks",
-            "Description": "Masks for men's hair"
-          }
-        }
-      },
-      {
-        "Id": 69,
-        "UrlSlug": "kosmetika-dlya-borody",
-        "Priority": 20,
-        "Image": "kosmetika_dlya_borody.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 49,
-        "Translations": {
-          "uk": {
-            "Name": "Косметика для бороди",
-            "Description": "Засоби догляду за бородою"
-          },
-          "en": {
-            "Name": "Beard Cosmetics",
-            "Description": "Beard care products"
-          }
-        }
-      },
-      {
-        "Id": 70,
-        "UrlSlug": "aksesuari-dlya-volossya",
-        "Priority": 21,
-        "Image": "aksesuari_dlya_volossya.jpg",
-        "IsDeleted": false,
-        "DateCreated": "2025-03-25T00:00:00Z",
-        "ParentId": 49,
-        "Translations": {
-          "uk": {
-            "Name": "Аксесуари для волосся",
-            "Description": "Аксесуари для догляду та укладки волосся"
-          },
-          "en": {
-            "Name": "Hair Accessories",
-            "Description": "Hair care and styling accessories"
-          }
-        }
-      }
-    ]
-  },
-
-  [
-    {
-      "Id": 71,
-      "Translations": {
-        "uk": {
-          "Name": "Тіло",
-          "Description": "Продукти для догляду за тілом"
-        },
-        "en": {
-          "Name": "Body",
-          "Description": "Body care products"
-        }
-      },
-      "UrlSlug": "tilo",
-      "Priority": 1,
-      "Image": "tilo_image.jpg",
-      "IsDeleted": false,
-      "DateCreated": "2025-03-25T00:00:00Z",
-      "Children": [
-        {
-          "Id": 72,
-          "Translations": {
-            "uk": {
-              "Name": "Для ванни та душу",
-              "Description": "Продукти для ванни та душу"
-            },
-            "en": {
-              "Name": "Bath & Shower",
-              "Description": "Bath and shower products"
-            }
-          },
-          "UrlSlug": "dlya-vanny-ta-dushu",
-          "Priority": 1,
-          "Image": "dlya_vanny_ta_dushu.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 71
-        },
-        {
-          "Id": 73,
-          "Translations": {
-            "uk": {
-              "Name": "Гігієна і захист",
-              "Description": "Засоби для гігієни та захисту"
-            },
-            "en": {
-              "Name": "Hygiene & Protection",
-              "Description": "Hygiene and protection products"
-            }
-          },
-          "UrlSlug": "higiye-na-i-zahyst",
-          "Priority": 2,
-          "Image": "higiye_na_i_zahyst.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 71
-        },
-        {
-          "Id": 74,
-          "Translations": {
-            "uk": {
-              "Name": "Догляд за порожниною рота",
-              "Description": "Продукти для догляду за порожниною рота"
-            },
-            "en": {
-              "Name": "Oral Care",
-              "Description": "Oral care products"
-            }
-          },
-          "UrlSlug": "doglyad-za-porozhnyynoyu-rota",
-          "Priority": 3,
-          "Image": "doglyad_za_porozhnyynoyu_rota.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 71
-        },
-        {
-          "Id": 75,
-          "Translations": {
-            "uk": {
-              "Name": "Депіляція",
-              "Description": "Засоби для депіляції"
-            },
-            "en": {
-              "Name": "Depilation",
-              "Description": "Depilation products"
-            }
-          },
-          "UrlSlug": "depylyatsiya",
-          "Priority": 4,
-          "Image": "depylyatsiya.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 71
-        },
-        {
-          "Id": 76,
-          "Translations": {
-            "uk": {
-              "Name": "Дезодоранти, антиперспіранти",
-              "Description": "Дезодоранти та антиперспіранти"
-            },
-            "en": {
-              "Name": "Deodorants & Antiperspirants",
-              "Description": "Deodorants and antiperspirants"
-            }
-          },
-          "UrlSlug": "dezodoranty-antiperspyranty",
-          "Priority": 5,
-          "Image": "dezodoranty_antiperspyranty.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 71
-        },
-        {
-          "Id": 77,
-          "Translations": {
-            "uk": {
-              "Name": "Косметика для тіла",
-              "Description": "Засоби для догляду за тілом"
-            },
-            "en": {
-              "Name": "Body Cosmetics",
-              "Description": "Body care cosmetics"
-            }
-          },
-          "UrlSlug": "kosmetyka-dlya-tila",
-          "Priority": 6,
-          "Image": "kosmetyka_dlya_tila.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 71
-        },
-        {
-          "Id": 78,
-          "Translations": {
-            "uk": {
-              "Name": "Косметика для рук",
-              "Description": "Косметика для догляду за руками"
-            },
-            "en": {
-              "Name": "Hand Care Cosmetics",
-              "Description": "Hand care cosmetics"
-            }
-          },
-          "UrlSlug": "kosmetyka-dlya-ruk",
-          "Priority": 7,
-          "Image": "kosmetyka_dlya_ruk.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 71
-        },
-        {
-          "Id": 79,
-          "Translations": {
-            "uk": {
-              "Name": "Косметика для ніг",
-              "Description": "Косметика для догляду за ногами"
-            },
-            "en": {
-              "Name": "Foot Care Cosmetics",
-              "Description": "Foot care cosmetics"
-            }
-          },
-          "UrlSlug": "kosmetyka-dlya-nih",
-          "Priority": 8,
-          "Image": "kosmetyka_dlya_nig.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 71
-        },
-        {
-          "Id": 80,
-          "Translations": {
-            "uk": {
-              "Name": "Засоби для масажу",
-              "Description": "Засоби для масажу тіла"
-            },
-            "en": {
-              "Name": "Massage Products",
-              "Description": "Body massage products"
-            }
-          },
-          "UrlSlug": "zasoby-dlya-masazhu",
-          "Priority": 9,
-          "Image": "zasoby_dlya_masazhu.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 71
-        },
-        {
-          "Id": 81,
-          "Translations": {
-            "uk": {
-              "Name": "Антицелюліт",
-              "Description": "Засоби для боротьби з целюлітом"
-            },
-            "en": {
-              "Name": "Anti-Cellulite",
-              "Description": "Anti-cellulite products"
-            }
-          },
-          "UrlSlug": "antytselyulit",
-          "Priority": 10,
-          "Image": "antytselyulit.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 71
-        },
-        {
-          "Id": 82,
-          "Translations": {
-            "uk": {
-              "Name": "Засоби для засмаги",
-              "Description": "Засоби для засмаги"
-            },
-            "en": {
-              "Name": "Tanning Products",
-              "Description": "Tanning products"
-            }
-          },
-          "UrlSlug": "zasoby-dlya-zasmagy",
-          "Priority": 11,
-          "Image": "zasoby_dlya_zasmagy.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 71
-        },
-        {
-          "Id": 83,
-          "Translations": {
-            "uk": {
-              "Name": "Захист від сонця",
-              "Description": "Засоби для захисту від сонця"
-            },
-            "en": {
-              "Name": "Sun Protection",
-              "Description": "Sun protection products"
-            }
-          },
-          "UrlSlug": "zahyst-vid-sontsya-tila",
-          "Priority": 12,
-          "Image": "zahyst_vid_sontsya_tila.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 71
-        },
-        {
-          "Id": 84,
-          "Translations": {
-            "uk": {
-              "Name": "Масла та олії",
-              "Description": "Масла та олії для догляду за тілом"
-            },
-            "en": {
-              "Name": "Oils",
-              "Description": "Oils for body care"
-            }
-          },
-          "UrlSlug": "masla-ta-oliyi",
-          "Priority": 13,
-          "Image": "masla_ta_oliyi.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 71
-        },
-        {
-          "Id": 85,
-          "Translations": {
-            "uk": {
-              "Name": "Аромати для дому",
-              "Description": "Аромати та свічки для дому"
-            },
-            "en": {
-              "Name": "Home Fragrances",
-              "Description": "Home fragrances and candles"
-            }
-          },
-          "UrlSlug": "aromaty-dlya-domu",
-          "Priority": 14,
-          "Image": "aromaty_dlya_domu.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 71
-        }
-      ]
-    },
-    {
-      "Id": 86,
-      "Translations": {
-        "uk": {
-          "Name": "Здоров'я і догляд",
-          "Description": "Продукти для здоров'я та догляду"
-        },
-        "en": {
-          "Name": "Health & Care",
-          "Description": "Products for health and care"
-        }
-      },
-      "UrlSlug": "zdorovya-i-doglyad",
-      "Priority": 1,
-      "Image": "zdorovya_i_doglyad.jpg",
-      "IsDeleted": false,
-      "DateCreated": "2025-03-25T00:00:00Z",
-      "Children": [
-        {
-          "Id": 87,
-          "Translations": {
-            "uk": {
-              "Name": "Дієтичні та харчові добавки",
-              "Description": "Дієтичні добавки та харчові добавки"
-            },
-            "en": {
-              "Name": "Dietary & Food Supplements",
-              "Description": "Dietary supplements and food additives"
-            }
-          },
-          "UrlSlug": "diyetychni-ta-harchovi-dodavky",
-          "Priority": 1,
-          "Image": "diyetychni_ta_harchovi_dodavky.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 86
-        },
-        {
-          "Id": 88,
-          "Translations": {
-            "uk": {
-              "Name": "Натуральна та органічна косметика",
-              "Description": "Натуральні та органічні продукти для догляду"
-            },
-            "en": {
-              "Name": "Natural & Organic Cosmetics",
-              "Description": "Natural and organic care products"
-            }
-          },
-          "UrlSlug": "naturalna-ta-organichna-kosmetyka",
-          "Priority": 2,
-          "Image": "naturalna_ta_organizna_kosmetyka.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 86
-        },
-        {
-          "Id": 89,
-          "Translations": {
-            "uk": {
-              "Name": "Дерматокосметика",
-              "Description": "Продукти для дерматологічного догляду"
-            },
-            "en": {
-              "Name": "Dermatocosmetics",
-              "Description": "Products for dermatological care"
-            }
-          },
-          "UrlSlug": "dermatokosmetyka",
-          "Priority": 3,
-          "Image": "dermatokosmetyka.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 86
-        },
-        {
-          "Id": 90,
-          "Translations": {
-            "uk": {
-              "Name": "Косметика для вагітних",
-              "Description": "Продукти для вагітних жінок"
-            },
-            "en": {
-              "Name": "Maternity Cosmetics",
-              "Description": "Products for pregnant women"
-            }
-          },
-          "UrlSlug": "kosmetyka-dlya-vahittyh",
-          "Priority": 4,
-          "Image": "kosmetyka_dlya_vahittyh.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 86
-        },
-        {
-          "Id": 91,
-          "Translations": {
-            "uk": {
-              "Name": "Дитяча косметика",
-              "Description": "Косметика для дітей"
-            },
-            "en": {
-              "Name": "Children's Cosmetics",
-              "Description": "Cosmetics for children"
-            }
-          },
-          "UrlSlug": "dytyacha-kosmetyka",
-          "Priority": 5,
-          "Image": "dytyacha_kosmetyka.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 86
-        },
-        {
-          "Id": 92,
-          "Translations": {
-            "uk": {
-              "Name": "Підгузки",
-              "Description": "Підгузки для немовлят та дітей"
-            },
-            "en": {
-              "Name": "Diapers",
-              "Description": "Diapers for infants and children"
-            }
-          },
-          "UrlSlug": "pidhuzky",
-          "Priority": 6,
-          "Image": "pidhuzky.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 86
-        },
-        {
-          "Id": 93,
-          "Translations": {
-            "uk": {
-              "Name": "Інтимні товари",
-              "Description": "Продукти для інтимної гігієни та догляду"
-            },
-            "en": {
-              "Name": "Intimate Products",
-              "Description": "Products for intimate hygiene and care"
-            }
-          },
-          "UrlSlug": "intymni-tovary",
-          "Priority": 7,
-          "Image": "intymni_tovary.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 86
-        },
-        {
-          "Id": 94,
-          "Translations": {
-            "uk": {
-              "Name": "Секс іграшки",
-              "Description": "Секс іграшки для дорослих"
-            },
-            "en": {
-              "Name": "Adult Toys",
-              "Description": "Adult sex toys"
-            }
-          },
-          "UrlSlug": "seks-igrashky",
-          "Priority": 8,
-          "Image": "seks_igrashky.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 86
-        },
-        {
-          "Id": 95,
-          "Translations": {
-            "uk": {
-              "Name": "Догляд за порожниною рота",
-              "Description": "Засоби для догляду за порожниною рота"
-            },
-            "en": {
-              "Name": "Oral Care",
-              "Description": "Oral care products"
-            }
-          },
-          "UrlSlug": "doglyad-za-porozhnyynoyu-rota",
-          "Priority": 9,
-          "Image": "doglyad_za_porozhnyynoyu_rota.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 86
-        },
-        {
-          "Id": 96,
-          "Translations": {
-            "uk": {
-              "Name": "Оптика",
-              "Description": "Продукти для корекції зору"
-            },
-            "en": {
-              "Name": "Optics",
-              "Description": "Vision correction products"
-            }
-          },
-          "UrlSlug": "optyka",
-          "Priority": 10,
-          "Image": "optyka.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 86
-        },
-        {
-          "Id": 97,
-          "Translations": {
-            "uk": {
-              "Name": "Консультації експертів",
-              "Description": "Консультації з експертами в галузі здоров'я та догляду"
-            },
-            "en": {
-              "Name": "Expert Consultations",
-              "Description": "Consultations with health and care experts"
-            }
-          },
-          "UrlSlug": "konsultatsiyi-ekspertiv",
-          "Priority": 11,
-          "Image": "konsultatsiyi_ekspertiv.jpg",
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 86
-        }
-      ]
-    },
-    {
-      "Id": 97,
-      "Name": {
-        "uk": "Аксесуари і техніка",
-        "en": "Accessories & Devices"
-      },
-      "UrlSlug": "aksesuary-i-tehnika",
-      "Priority": 1,
-      "Image": "aksesuary_i_tehnika.jpg",
-      "Description": {
-        "uk": "Аксесуари та техніка для краси та догляду",
-        "en": "Accessories and devices for beauty and care"
-      },
-      "IsDeleted": false,
-      "DateCreated": "2025-03-25T00:00:00Z",
-      "Children": [
-        {
-          "Id": 98,
-          "Name": {
-            "uk": "Для волосся",
-            "en": "Hair Tools"
-          },
-          "UrlSlug": "dlya-volossya",
-          "Priority": 1,
-          "Image": "dlya_volossya.jpg",
-          "Description": {
-            "uk": "Аксесуари та техніка для волосся",
-            "en": "Hair accessories and devices"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 97
-        },
-        {
-          "Id": 99,
-          "Name": {
-            "uk": "Для макіяжу",
-            "en": "Makeup Tools"
-          },
-          "UrlSlug": "dlya-makiyazhu",
-          "Priority": 2,
-          "Image": "dlya_makiyazhu.jpg",
-          "Description": {
-            "uk": "Аксесуари для макіяжу",
-            "en": "Makeup accessories"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 97
-        },
-        {
-          "Id": 100,
-          "Name": {
-            "uk": "Гігієна та догляд",
-            "en": "Hygiene & Care"
-          },
-          "UrlSlug": "hihiyena-ta-doglyad",
-          "Priority": 3,
-          "Image": "hihiyena_ta_doglyad.jpg",
-          "Description": {
-            "uk": "Аксесуари для гігієни та догляду",
-            "en": "Accessories for hygiene and care"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 97
-        },
-        {
-          "Id": 101,
-          "Name": {
-            "uk": "Аксесуари",
-            "en": "Accessories"
-          },
-          "UrlSlug": "aksesuary",
-          "Priority": 4,
-          "Image": "aksesuary.jpg",
-          "Description": {
-            "uk": "Загальні аксесуари для краси та догляду",
-            "en": "General accessories for beauty and care"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 97
-        },
-        {
-          "Id": 102,
-          "Name": {
-            "uk": "Дорожні набори",
-            "en": "Travel Kits"
-          },
-          "UrlSlug": "dorozhni-nabory",
-          "Priority": 5,
-          "Image": "dorozhni_nabory.jpg",
-          "Description": {
-            "uk": "Набори аксесуарів для подорожей",
-            "en": "Accessory kits for travel"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 97
-        },
-        {
-          "Id": 103,
-          "Name": {
-            "uk": "Дзеркала",
-            "en": "Mirrors"
-          },
-          "UrlSlug": "dzerkala",
-          "Priority": 6,
-          "Image": "dzerkala.jpg",
-          "Description": {
-            "uk": "Дзеркала для краси та догляду",
-            "en": "Mirrors for beauty and care"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 97
-        },
-        {
-          "Id": 104,
-          "Name": {
-            "uk": "Сумки, косметички",
-            "en": "Bags & Cosmetic Cases"
-          },
-          "UrlSlug": "sumky-kosmetychky",
-          "Priority": 7,
-          "Image": "sumky_kosmetychky.jpg",
-          "Description": {
-            "uk": "Сумки та косметички для зберігання косметики",
-            "en": "Bags and cosmetic cases for storing cosmetics"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 97
-        },
-        {
-          "Id": 105,
-          "Name": {
-            "uk": "Пінцет",
-            "en": "Tweezers"
-          },
-          "UrlSlug": "pintset",
-          "Priority": 8,
-          "Image": "pintset.jpg",
-          "Description": {
-            "uk": "Пінцети для макіяжу та догляду",
-            "en": "Tweezers for makeup and care"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 97
-        },
-        {
-          "Id": 106,
-          "Name": {
-            "uk": "Щипці для вій",
-            "en": "Eyelash Curlers"
-          },
-          "UrlSlug": "shchyptsi-dlya-viy",
-          "Priority": 9,
-          "Image": "shchyptsi_dlya_viy.jpg",
-          "Description": {
-            "uk": "Щипці для завивки та догляду за віями",
-            "en": "Eyelash curlers for curling and care"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 97
-        },
-        {
-          "Id": 107,
-          "Name": {
-            "uk": "Інструменти для манікюру та педікюру",
-            "en": "Manicure & Pedicure Tools"
-          },
-          "UrlSlug": "instrumenty-dlya-manikyuru-ta-pedikyuru",
-          "Priority": 10,
-          "Image": "instrumenty_dlya_manikyuru_ta_pedikyuru.jpg",
-          "Description": {
-            "uk": "Інструменти для манікюру та педікюру",
-            "en": "Tools for manicure and pedicure"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 97
-        },
-        {
-          "Id": 108,
-          "Name": {
-            "uk": "Аксесуари для парафінотерапії",
-            "en": "Paraffin Therapy Accessories"
-          },
-          "UrlSlug": "aksesuary-dlya-parafinoterapiyi",
-          "Priority": 11,
-          "Image": "aksesuary_dlya_parafinoterapiyi.jpg",
-          "Description": {
-            "uk": "Аксесуари для парафінотерапії",
-            "en": "Accessories for paraffin therapy"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 97
-        },
-        {
-          "Id": 109,
-          "Name": {
-            "uk": "Для депіляції",
-            "en": "Depilation Tools"
-          },
-          "UrlSlug": "dlya-depilyatsiyi",
-          "Priority": 12,
-          "Image": "dlya_depilyatsiyi.jpg",
-          "Description": {
-            "uk": "Аксесуари для депіляції",
-            "en": "Accessories for depilation"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 97
-        },
-        {
-          "Id": 110,
-          "Name": {
-            "uk": "Масажери",
-            "en": "Massagers"
-          },
-          "UrlSlug": "masazhery",
-          "Priority": 13,
-          "Image": "masazhery.jpg",
-          "Description": {
-            "uk": "Масажери для тіла та обличчя",
-            "en": "Massagers for body and face"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 97
-        },
-        {
-          "Id": 111,
-          "Name": {
-            "uk": "Фітнес-браслет",
-            "en": "Fitness Bracelet"
-          },
-          "UrlSlug": "fitnes-braslet",
-          "Priority": 14,
-          "Image": "fitnes_braslet.jpg",
-          "Description": {
-            "uk": "Фітнес-браслети для контролю здоров'я",
-            "en": "Fitness bracelets for health tracking"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 97
-        },
-        {
-          "Id": 112,
-          "Name": {
-            "uk": "Спецзасоби",
-            "en": "Special Products"
-          },
-          "UrlSlug": "speczasyoby",
-          "Priority": 15,
-          "Image": "speczasyoby.jpg",
-          "Description": {
-            "uk": "Спеціальні засоби для краси та догляду",
-            "en": "Special products for beauty and care"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 97
-        }
-      ]
-    },
-    {
-      "Id": 113,
-      "Name": {
-        "uk": "Одяг",
-        "en": "Clothing"
-      },
-      "UrlSlug": "odyah",
-      "Priority": 1,
-      "Image": "odyah.jpg",
-      "Description": {
-        "uk": "Категорія одягу для жінок та чоловіків",
-        "en": "Clothing category for women and men"
-      },
-      "IsDeleted": false,
-      "DateCreated": "2025-03-25T00:00:00Z",
-      "Children": [
-        {
-          "Id": 114,
-          "Name": {
-            "uk": "Спідня білизна",
-            "en": "Underwear"
-          },
-          "UrlSlug": "spidnya-bilyzna",
-          "Priority": 1,
-          "Image": "spidnya_bilyzna.jpg",
-          "Description": {
-            "uk": "Спідня білизна для жінок та чоловіків",
-            "en": "Underwear for women and men"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 113
-        },
-        {
-          "Id": 115,
-          "Name": {
-            "uk": "Панчішно-шкарпеткові вироби",
-            "en": "Hosiery"
-          },
-          "UrlSlug": "panchishno-shkarpetkovi-viroby",
-          "Priority": 2,
-          "Image": "panchishno_shkarpetkovi_viroby.jpg",
-          "Description": {
-            "uk": "Панчохи, шкарпетки та колготки",
-            "en": "Stockings, socks, and tights"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 113
-        },
-        {
-          "Id": 116,
-          "Name": {
-            "uk": "Органайзер для білизни",
-            "en": "Underwear Organizer"
-          },
-          "UrlSlug": "organyzer-dlya-bilyznyi",
-          "Priority": 3,
-          "Image": "organyzer_dlya_bilyznyi.jpg",
-          "Description": {
-            "uk": "Органайзери для зберігання білизни",
-            "en": "Organizers for storing underwear"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 113
-        },
-        {
-          "Id": 117,
-          "Name": {
-            "uk": "Інтимний одяг",
-            "en": "Intimate Clothing"
-          },
-          "UrlSlug": "intymnyy-odyah",
-          "Priority": 4,
-          "Image": "intymnyy_odyah.jpg",
-          "Description": {
-            "uk": "Інтимний одяг для жінок та чоловіків",
-            "en": "Intimate clothing for women and men"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 113
-        }
-      ]
-    },
-    {
-      "Id": 118,
-      "Name": {
-        "uk": "Чоловікам",
-        "en": "For Men"
-      },
-      "UrlSlug": "cholovikam",
-      "Priority": 1,
-      "Image": "cholovikam.jpg",
-      "Description": {
-        "uk": "Категорія товарів для чоловіків",
-        "en": "Category of products for men"
-      },
-      "IsDeleted": false,
-      "DateCreated": "2025-03-25T00:00:00Z",
-      "Children": [
-        {
-          "Id": 119,
-          "Name": {
-            "uk": "Чоловіча парфумерія",
-            "en": "Men's Perfume"
-          },
-          "UrlSlug": "cholovicha-parfyumeriya",
-          "Priority": 1,
-          "Image": "cholovicha_parfyumeriya.jpg",
-          "Description": {
-            "uk": "Парфумерія для чоловіків",
-            "en": "Perfume for men"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 118
-        },
-        {
-          "Id": 120,
-          "Name": {
-            "uk": "Дезодоранти",
-            "en": "Deodorants"
-          },
-          "UrlSlug": "deodoranty",
-          "Priority": 2,
-          "Image": "deodoranty.jpg",
-          "Description": {
-            "uk": "Дезодоранти для чоловіків",
-            "en": "Deodorants for men"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 118
-        },
-        {
-          "Id": 121,
-          "Name": {
-            "uk": "Догляд за тілом та обличчям",
-            "en": "Body & Face Care"
-          },
-          "UrlSlug": "dohlyad-za-tilom-ta-oblychchyam",
-          "Priority": 3,
-          "Image": "dohlyad_za_tilom.jpg",
-          "Description": {
-            "uk": "Засоби для догляду за тілом та обличчям для чоловіків",
-            "en": "Products for body and face care for men"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 118
-        },
-        {
-          "Id": 122,
-          "Name": {
-            "uk": "Засоби для гоління",
-            "en": "Shaving Products"
-          },
-          "UrlSlug": "zasoby-dlya-holinnya",
-          "Priority": 4,
-          "Image": "zasoby_dlya_golinnya.jpg",
-          "Description": {
-            "uk": "Засоби для гоління для чоловіків",
-            "en": "Shaving products for men"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 118
-        },
-        {
-          "Id": 123,
-          "Name": {
-            "uk": "Засоби після гоління",
-            "en": "Aftershave Products"
-          },
-          "UrlSlug": "zasoby-pislya-holinnya",
-          "Priority": 5,
-          "Image": "zasoby_pislya_golinnya.jpg",
-          "Description": {
-            "uk": "Засоби для післягоління для чоловіків",
-            "en": "Aftershave products for men"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 118
-        },
-        {
-          "Id": 124,
-          "Name": {
-            "uk": "Догляд за волоссям",
-            "en": "Hair Care"
-          },
-          "UrlSlug": "dohlyad-za-volossyam",
-          "Priority": 6,
-          "Image": "dohlyad_za_volossyam.jpg",
-          "Description": {
-            "uk": "Засоби для догляду за волоссям для чоловіків",
-            "en": "Hair care products for men"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 118
-        },
-        {
-          "Id": 125,
-          "Name": {
-            "uk": "Інструменти та аксесуари",
-            "en": "Tools & Accessories"
-          },
-          "UrlSlug": "instrumenty-ta-aksesuary",
-          "Priority": 7,
-          "Image": "instrumenty_ta_aksesuary.jpg",
-          "Description": {
-            "uk": "Інструменти та аксесуари для чоловіків",
-            "en": "Tools and accessories for men"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 118
-        },
-        {
-          "Id": 126,
-          "Name": {
-            "uk": "Інтимні товари",
-            "en": "Intimate Products"
-          },
-          "UrlSlug": "intymni-tovary",
-          "Priority": 8,
-          "Image": "intymni_tovary.jpg",
-          "Description": {
-            "uk": "Інтимні товари для чоловіків",
-            "en": "Intimate products for men"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 118
-        }
-      ]
-    },
-    {
-      "Id": 127,
-      "Name": {
-        "uk": "Подарунки",
-        "en": "Gifts"
-      },
-      "UrlSlug": "podyrunky",
-      "Priority": 1,
-      "Image": "podyrunky.jpg",
-      "Description": {
-        "uk": "Категорія подарунків для всіх",
-        "en": "Category of gifts for everyone"
-      },
-      "IsDeleted": false,
-      "DateCreated": "2025-03-25T00:00:00Z",
-      "Children": [
-        {
-          "Id": 128,
-          "Name": {
-            "uk": "Подарункові набори",
-            "en": "Gift Sets"
-          },
-          "UrlSlug": "podyrunkovi-nabory",
-          "Priority": 1,
-          "Image": "podyrunkovi_nabory.jpg",
-          "Description": {
-            "uk": "Набори для подарунків",
-            "en": "Sets for gifts"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 127
-        },
-        {
-          "Id": 129,
-          "Name": {
-            "uk": "Подарункові сертифікати",
-            "en": "Gift Certificates"
-          },
-          "UrlSlug": "podyrunkovi-sertyfikaty",
-          "Priority": 2,
-          "Image": "podyrunkovi_sertyfikaty.jpg",
-          "Description": {
-            "uk": "Сертифікати для подарунків",
-            "en": "Certificates for gifts"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 127
-        },
-        {
-          "Id": 130,
-          "Name": {
-            "uk": "Електронні сертифікати",
-            "en": "Electronic Certificates"
-          },
-          "UrlSlug": "elektronni-sertyfikaty",
-          "Priority": 3,
-          "Image": "elektronni_sertyfikaty.jpg",
-          "Description": {
-            "uk": "Електронні сертифікати для подарунків",
-            "en": "Electronic certificates for gifts"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 127
-        },
-        {
-          "Id": 131,
-          "Name": {
-            "uk": "Подарункові упаковки",
-            "en": "Gift Wrapping"
-          },
-          "UrlSlug": "podyrunkovi-upakovky",
-          "Priority": 4,
-          "Image": "podyrunkovi_upakovky.jpg",
-          "Description": {
-            "uk": "Упаковки для подарунків",
-            "en": "Wrapping for gifts"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 127
-        },
-        {
-          "Id": 132,
-          "Name": {
-            "uk": "Адвент-календарі",
-            "en": "Advent Calendars"
-          },
-          "UrlSlug": "advent-kalendari",
-          "Priority": 5,
-          "Image": "advent_kalendari.jpg",
-          "Description": {
-            "uk": "Адвент-календарі для подарунків",
-            "en": "Advent calendars for gifts"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 127
-        },
-        {
-          "Id": 133,
-          "Name": {
-            "uk": "Подарунки для жінок",
-            "en": "Gifts for Women"
-          },
-          "UrlSlug": "podyrunky-dlya-zhinok",
-          "Priority": 6,
-          "Image": "podyrunky_dlya_zhinok.jpg",
-          "Description": {
-            "uk": "Подарунки для жінок",
-            "en": "Gifts for women"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 127
-        },
-        {
-          "Id": 134,
-          "Name": {
-            "uk": "Подарунки для чоловіків",
-            "en": "Gifts for Men"
-          },
-          "UrlSlug": "podyrunky-dlya-cholovikiv",
-          "Priority": 7,
-          "Image": "podyrunky_dlya_cholovikiv.jpg",
-          "Description": {
-            "uk": "Подарунки для чоловіків",
-            "en": "Gifts for men"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 127
-        },
-        {
-          "Id": 135,
-          "Name": {
-            "uk": "Ідеї до Дня народження",
-            "en": "Birthday Ideas"
-          },
-          "UrlSlug": "ideyi-do-dnya-narodzhennya",
-          "Priority": 8,
-          "Image": "ideyi_do_dnya_narodzhennya.jpg",
-          "Description": {
-            "uk": "Ідеї подарунків до Дня народження",
-            "en": "Gift ideas for birthdays"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 127
-        },
-        {
-          "Id": 136,
-          "Name": {
-            "uk": "Новий рік і Різдво",
-            "en": "New Year & Christmas"
-          },
-          "UrlSlug": "novyy-rik-i-rizdvo",
-          "Priority": 9,
-          "Image": "novyy_rik_i_rizdvo.jpg",
-          "Description": {
-            "uk": "Подарунки до Нового року і Різдва",
-            "en": "Gifts for New Year and Christmas"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 127
-        },
-        {
-          "Id": 137,
-          "Name": {
-            "uk": "Wonder Bundle",
-            "en": "Wonder Bundle"
-          },
-          "UrlSlug": "wonder-bundle",
-          "Priority": 10,
-          "Image": "wonder_bundle.jpg",
-          "Description": {
-            "uk": "Подарункові пакети Wonder Bundle",
-            "en": "Wonder Bundle gift packs"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 127
-        },
-        {
-          "Id": 138,
-          "Name": {
-            "uk": "Акції брендів",
-            "en": "Brand Promotions"
-          },
-          "UrlSlug": "aktsiyi-brendiv",
-          "Priority": 11,
-          "Image": "aktsiyi_brendiv.jpg",
-          "Description": {
-            "uk": "Акції брендів на подарунки",
-            "en": "Brand promotions on gifts"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 127
-        },
-        {
-          "Id": 139,
-          "Name": {
-            "uk": "Beauty-club MAKEUP",
-            "en": "Beauty Club MAKEUP"
-          },
-          "UrlSlug": "beauty-club-makeup",
-          "Priority": 12,
-          "Image": "beauty_club_makeup.jpg",
-          "Description": {
-            "uk": "Подарунки для учасників Beauty-club MAKEUP",
-            "en": "Gifts for Beauty Club MAKEUP members"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 127
-        }
-      ]
-    },
-    {
-      "Id": 140,
-      "Name": {
-        "uk": "Бренди",
-        "en": "Brands"
-      },
-      "UrlSlug": "brendy",
-      "Priority": 1,
-      "Image": "brendy.jpg",
-      "Description": {
-        "uk": "Категорія брендів для всіх продуктів",
-        "en": "Category of brands for all products"
-      },
-      "IsDeleted": false,
-      "DateCreated": "2025-03-25T00:00:00Z",
-      "Children": [
-        {
-          "Id": 141,
-          "Name": {
-            "uk": "Armand Basi",
-            "en": "Armand Basi"
-          },
-          "UrlSlug": "armand-basi",
-          "Priority": 1,
-          "Image": "armand_basi.jpg",
-          "Description": {
-            "uk": "Продукти бренду Armand Basi",
-            "en": "Products of Armand Basi brand"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 140
-        },
-        {
-          "Id": 142,
-          "Name": {
-            "uk": "Armani",
-            "en": "Armani"
-          },
-          "UrlSlug": "armani",
-          "Priority": 2,
-          "Image": "armani.jpg",
-          "Description": {
-            "uk": "Продукти бренду Armani",
-            "en": "Products of Armani brand"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 140
-        },
-        {
-          "Id": 143,
-          "Name": {
-            "uk": "Angel Schlesser",
-            "en": "Angel Schlesser"
-          },
-          "UrlSlug": "angel-schlesser",
-          "Priority": 3,
-          "Image": "angel_schlesser.jpg",
-          "Description": {
-            "uk": "Продукти бренду Angel Schlesser",
-            "en": "Products of Angel Schlesser brand"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 140
-        },
-        {
-          "Id": 144,
-          "Name": {
-            "uk": "Artdeco",
-            "en": "Artdeco"
-          },
-          "UrlSlug": "artdeco",
-          "Priority": 4,
-          "Image": "artdeco.jpg",
-          "Description": {
-            "uk": "Продукти бренду Artdeco",
-            "en": "Products of Artdeco brand"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 140
-        },
-        {
-          "Id": 145,
-          "Name": {
-            "uk": "Bioderma",
-            "en": "Bioderma"
-          },
-          "UrlSlug": "bioderma",
-          "Priority": 5,
-          "Image": "bioderma.jpg",
-          "Description": {
-            "uk": "Продукти бренду Bioderma",
-            "en": "Products of Bioderma brand"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 140
-        },
-        {
-          "Id": 146,
-          "Name": {
-            "uk": "Bobbi Brown",
-            "en": "Bobbi Brown"
-          },
-          "UrlSlug": "bobbi-brown",
-          "Priority": 6,
-          "Image": "bobbi_brown.jpg",
-          "Description": {
-            "uk": "Продукти бренду Bobbi Brown",
-            "en": "Products of Bobbi Brown brand"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 140
-        },
-        {
-          "Id": 147,
-          "Name": {
-            "uk": "Bourjois",
-            "en": "Bourjois"
-          },
-          "UrlSlug": "bourjois",
-          "Priority": 7,
-          "Image": "bourjois.jpg",
-          "Description": {
-            "uk": "Продукти бренду Bourjois",
-            "en": "Products of Bourjois brand"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 140
-        },
-        {
-          "Id": 148,
-          "Name": {
-            "uk": "CeraVe",
-            "en": "CeraVe"
-          },
-          "UrlSlug": "cerave",
-          "Priority": 8,
-          "Image": "cerave.jpg",
-          "Description": {
-            "uk": "Продукти бренду CeraVe",
-            "en": "Products of CeraVe brand"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 140
-        },
-        {
-          "Id": 149,
-          "Name": {
-            "uk": "Chanel",
-            "en": "Chanel"
-          },
-          "UrlSlug": "chanel",
-          "Priority": 9,
-          "Image": "chanel.jpg",
-          "Description": {
-            "uk": "Продукти бренду Chanel",
-            "en": "Products of Chanel brand"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 140
-        },
-        {
-          "Id": 150,
-          "Name": {
-            "uk": "Charlotte Tilbury",
-            "en": "Charlotte Tilbury"
-          },
-          "UrlSlug": "charlotte-tilbury",
-          "Priority": 10,
-          "Image": "charlotte_tilbury.jpg",
-          "Description": {
-            "uk": "Продукти бренду Charlotte Tilbury",
-            "en": "Products of Charlotte Tilbury brand"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 140
-        },
-        {
-          "Id": 151,
-          "Name": {
-            "uk": "Christina",
-            "en": "Christina"
-          },
-          "UrlSlug": "christina",
-          "Priority": 11,
-          "Image": "christina.jpg",
-          "Description": {
-            "uk": "Продукти бренду Christina",
-            "en": "Products of Christina brand"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 140
-        },
-        {
-          "Id": 152,
-          "Name": {
-            "uk": "Clinique",
-            "en": "Clinique"
-          },
-          "UrlSlug": "clinique",
-          "Priority": 12,
-          "Image": "clinique.jpg",
-          "Description": {
-            "uk": "Продукти бренду Clinique",
-            "en": "Products of Clinique brand"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 140
-        },
-        {
-          "Id": 153,
-          "Name": {
-            "uk": "Creed",
-            "en": "Creed"
-          },
-          "UrlSlug": "creed",
-          "Priority": 13,
-          "Image": "creed.jpg",
-          "Description": {
-            "uk": "Продукти бренду Creed",
-            "en": "Products of Creed brand"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 140
-        },
-        {
-          "Id": 154,
-          "Name": {
-            "uk": "Dior",
-            "en": "Dior"
-          },
-          "UrlSlug": "dior",
-          "Priority": 14,
-          "Image": "dior.jpg",
-          "Description": {
-            "uk": "Продукти бренду Dior",
-            "en": "Products of Dior brand"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 140
-        },
-        {
-          "Id": 155,
-          "Name": {
-            "uk": "Donna Karan",
-            "en": "Donna Karan"
-          },
-          "UrlSlug": "donna-karan",
-          "Priority": 15,
-          "Image": "donna_karan.jpg",
-          "Description": {
-            "uk": "Продукти бренду Donna Karan",
-            "en": "Products of Donna Karan brand"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 140
-        },
-        {
-          "Id": 156,
-          "Name": {
-            "uk": "Dolce & Gabbana",
-            "en": "Dolce & Gabbana"
-          },
-          "UrlSlug": "dolce-gabbana",
-          "Priority": 16,
-          "Image": "dolce_gabbana.jpg",
-          "Description": {
-            "uk": "Продукти бренду Dolce & Gabbana",
-            "en": "Products of Dolce & Gabbana brand"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 140
-        },
-        {
-          "Id": 157,
-          "Name": {
-            "uk": "Estee Lauder",
-            "en": "Estee Lauder"
-          },
-          "UrlSlug": "estee-lauder",
-          "Priority": 17,
-          "Image": "estee_lauder.jpg",
-          "Description": {
-            "uk": "Продукти бренду Estee Lauder",
-            "en": "Products of Estee Lauder brand"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 140
-        },
-        {
-          "Id": 158,
-          "Name": {
-            "uk": "Fenty Beauty",
-            "en": "Fenty Beauty"
-          },
-          "UrlSlug": "fenty-beauty",
-          "Priority": 18,
-          "Image": "fenty_beauty.jpg",
-          "Description": {
-            "uk": "Продукти бренду Fenty Beauty",
-            "en": "Products of Fenty Beauty brand"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 140
-        },
-        {
-          "Id": 159,
-          "Name": {
-            "uk": "Garnier",
-            "en": "Garnier"
-          },
-          "UrlSlug": "garnier",
-          "Priority": 19,
-          "Image": "garnier.jpg",
-          "Description": {
-            "uk": "Продукти бренду Garnier",
-            "en": "Products of Garnier brand"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 140
-        },
-        {
-          "Id": 160,
-          "Name": {
-            "uk": "Guerlain",
-            "en": "Guerlain"
-          },
-          "UrlSlug": "guerlain",
-          "Priority": 20,
-          "Image": "guerlain.jpg",
-          "Description": {
-            "uk": "Продукти бренду Guerlain",
-            "en": "Products of Guerlain brand"
-          },
-          "IsDeleted": false,
-          "DateCreated": "2025-03-25T00:00:00Z",
-          "ParentId": 140
-        }
-      ]
-    }
-  ]
+  }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//[
+
+//  {
+//    "Id": 1,
+//    "UrlSlug": "parfumeriya",
+//    "Priority": 1,
+//    "DateCreated": "2025-03-20T00:00:00Z",
+//    "Translations": {
+//      "uk": {
+//        "Name": "Парфумерія",
+//        "Description": "Всі види парфумерії"
+//      },
+//      "en": {
+//        "Name": "Perfumery",
+//        "Description": "All kinds of perfumery"
+//      }
+//    },
+//    "Children": [
+//      {
+//        "Id": 2,
+//        "UrlSlug": "zhinocha-parfumeriya",
+//        "Priority": 1,
+//        "DateCreated": "2025-03-20T00:00:00Z",
+//        "ParentId": 1,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Жіноча парфумерія",
+//            "Description": "Парфуми для жінок"
+//          },
+//          "en": {
+//            "Name": "Women's Perfumery",
+//            "Description": "Perfumes for women"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 3,
+//        "UrlSlug": "cholovicha-parfumeriya",
+//        "Priority": 2,
+//        "DateCreated": "2025-03-20T00:00:00Z",
+//        "ParentId": 1,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Чоловіча парфумерія",
+//            "Description": "Парфуми для чоловіків"
+//          },
+//          "en": {
+//            "Name": "Men's Perfumery",
+//            "Description": "Perfumes for men"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 4,
+//        "UrlSlug": "parfumeriya-unisex",
+//        "Priority": 3,
+//        "DateCreated": "2025-03-20T00:00:00Z",
+//        "ParentId": 1,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Парфумерія унісекс",
+//            "Description": "Парфуми для всіх"
+//          },
+//          "en": {
+//            "Name": "Unisex Perfumery",
+//            "Description": "Perfumes for everyone"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 5,
+//        "UrlSlug": "dityacha-parfumeriya",
+//        "Priority": 4,
+//        "DateCreated": "2025-03-20T00:00:00Z",
+//        "ParentId": 1,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Дитяча парфумерія",
+//            "Description": "Парфуми для дітей"
+//          },
+//          "en": {
+//            "Name": "Children's Perfumery",
+//            "Description": "Perfumes for children"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 6,
+//        "UrlSlug": "wonder-bundle",
+//        "Priority": 5,
+//        "DateCreated": "2025-03-20T00:00:00Z",
+//        "ParentId": 1,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Wonder Bundle",
+//            "Description": "Набори для подарунків"
+//          },
+//          "en": {
+//            "Name": "Wonder Bundle",
+//            "Description": "Gift sets"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 7,
+//        "UrlSlug": "nabori",
+//        "Priority": 6,
+//        "DateCreated": "2025-03-20T00:00:00Z",
+//        "ParentId": 1,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Набори",
+//            "Description": "Парфумерні набори"
+//          },
+//          "en": {
+//            "Name": "Sets",
+//            "Description": "Perfume sets"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 8,
+//        "UrlSlug": "miniatyury",
+//        "Priority": 7,
+//        "DateCreated": "2025-03-20T00:00:00Z",
+//        "ParentId": 1,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Мініатюри",
+//            "Description": "Мініатюрні парфуми"
+//          },
+//          "en": {
+//            "Name": "Miniatures",
+//            "Description": "Mini perfume bottles"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 9,
+//        "UrlSlug": "parfiumovana-voda",
+//        "Priority": 8,
+//        "DateCreated": "2025-03-20T00:00:00Z",
+//        "ParentId": 1,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Парфумована вода",
+//            "Description": "Парфумована вода"
+//          },
+//          "en": {
+//            "Name": "Eau de Parfum",
+//            "Description": "Eau de Parfum"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 10,
+//        "UrlSlug": "tualetna-voda",
+//        "Priority": 9,
+//        "DateCreated": "2025-03-20T00:00:00Z",
+//        "ParentId": 1,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Туалетна вода",
+//            "Description": "Туалетна вода"
+//          },
+//          "en": {
+//            "Name": "Eau de Toilette",
+//            "Description": "Eau de Toilette"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 11,
+//        "UrlSlug": "odekolon",
+//        "Priority": 10,
+//        "DateCreated": "2025-03-20T00:00:00Z",
+//        "ParentId": 1,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Одеколон",
+//            "Description": "Одеколон"
+//          },
+//          "en": {
+//            "Name": "Cologne",
+//            "Description": "Cologne"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 12,
+//        "UrlSlug": "maslyani-duhi",
+//        "Priority": 11,
+//        "DateCreated": "2025-03-20T00:00:00Z",
+//        "ParentId": 1,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Масляні духи",
+//            "Description": "Масляні духи"
+//          },
+//          "en": {
+//            "Name": "Oil Perfumes",
+//            "Description": "Oil-based perfumes"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 13,
+//        "UrlSlug": "light-spring-scents",
+//        "Priority": 12,
+//        "DateCreated": "2025-03-20T00:00:00Z",
+//        "ParentId": 1,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Легкі весняні аромати",
+//            "Description": "Легкі весняні аромати"
+//          },
+//          "en": {
+//            "Name": "Light Spring Scents",
+//            "Description": "Light spring fragrances"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 14,
+//        "UrlSlug": "elitna-parfumeriya",
+//        "Priority": 13,
+//        "DateCreated": "2025-03-20T00:00:00Z",
+//        "ParentId": 1,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Елітна парфумерія",
+//            "Description": "Елітні парфуми"
+//          },
+//          "en": {
+//            "Name": "Luxury Perfumery",
+//            "Description": "Luxury perfumes"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 15,
+//        "UrlSlug": "arabska-parfumeriya",
+//        "Priority": 14,
+//        "DateCreated": "2025-03-20T00:00:00Z",
+//        "ParentId": 1,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Арабська парфумерія",
+//            "Description": "Арабські парфуми"
+//          },
+//          "en": {
+//            "Name": "Arabic Perfumery",
+//            "Description": "Arabic perfumes"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 16,
+//        "UrlSlug": "atomayzery",
+//        "Priority": 15,
+//        "DateCreated": "2025-03-20T00:00:00Z",
+//        "ParentId": 1,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Атомайзери",
+//            "Description": "Атомайзери для парфумів"
+//          },
+//          "en": {
+//            "Name": "Atomizers",
+//            "Description": "Perfume atomizers"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 17,
+//        "UrlSlug": "aromaty-dlya-domu",
+//        "Priority": 16,
+//        "DateCreated": "2025-03-20T00:00:00Z",
+//        "ParentId": 1,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Аромати для дому",
+//            "Description": "Аромати для дому"
+//          },
+//          "en": {
+//            "Name": "Home Fragrances",
+//            "Description": "Home fragrances"
+//          }
+//        }
+//      }
+//    ]
+//  },
+
+//  {
+//    "Id": 18,
+//    "UrlSlug": "makiyazh",
+//    "Priority": 1,
+//    "Image": "makiyazh_image.jpg",
+//    "IsDeleted": false,
+//    "DateCreated": "2025-03-25T00:00:00Z",
+//    "Translations": {
+//      "uk": {
+//        "Name": "Макіяж",
+//        "Description": "Продукти для макіяжу"
+//      },
+//      "en": {
+//        "Name": "Makeup",
+//        "Description": "Makeup products"
+//      }
+//    },
+//    "Children": [
+//      {
+//        "Id": 19,
+//        "UrlSlug": "ochi",
+//        "Priority": 1,
+//        "Image": "ochi.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 18,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Очі",
+//            "Description": "Макіяж для очей"
+//          },
+//          "en": {
+//            "Name": "Eyes",
+//            "Description": "Eye makeup"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 20,
+//        "UrlSlug": "brovy",
+//        "Priority": 2,
+//        "Image": "brovy.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 18,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Брови",
+//            "Description": "Макіяж для брів"
+//          },
+//          "en": {
+//            "Name": "Eyebrows",
+//            "Description": "Eyebrow makeup"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 21,
+//        "UrlSlug": "huby",
+//        "Priority": 3,
+//        "Image": "huby.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 18,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Губи",
+//            "Description": "Макіяж для губ"
+//          },
+//          "en": {
+//            "Name": "Lips",
+//            "Description": "Lip makeup"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 22,
+//        "UrlSlug": "oblychchya",
+//        "Priority": 4,
+//        "Image": "oblychchya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 18,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Обличчя",
+//            "Description": "Макіяж для обличчя"
+//          },
+//          "en": {
+//            "Name": "Face",
+//            "Description": "Face makeup"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 23,
+//        "UrlSlug": "penzli",
+//        "Priority": 5,
+//        "Image": "penzli.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 18,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Пензлі",
+//            "Description": "Пензлі для макіяжу"
+//          },
+//          "en": {
+//            "Name": "Brushes",
+//            "Description": "Makeup brushes"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 24,
+//        "UrlSlug": "demakiyazh",
+//        "Priority": 6,
+//        "Image": "demakiyazh.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 18,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Демакіяж",
+//            "Description": "Засоби для демакіяжу"
+//          },
+//          "en": {
+//            "Name": "Makeup Removal",
+//            "Description": "Products for makeup removal"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 25,
+//        "UrlSlug": "nihti",
+//        "Priority": 7,
+//        "Image": "nihti.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 18,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Нігті",
+//            "Description": "Продукти для догляду за нігтями"
+//          },
+//          "en": {
+//            "Name": "Nails",
+//            "Description": "Nail care products"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 26,
+//        "UrlSlug": "paletka-dlya-makiyazhu",
+//        "Priority": 8,
+//        "Image": "paletka_dlya_makiyazhu.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 18,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Палетка для макіяжу",
+//            "Description": "Палетки для макіяжу"
+//          },
+//          "en": {
+//            "Name": "Makeup Palette",
+//            "Description": "Makeup palettes"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 27,
+//        "UrlSlug": "miniatyury",
+//        "Priority": 9,
+//        "Image": "miniatyury.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 18,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Мініатюри",
+//            "Description": "Мініатюрні версії продукції для макіяжу"
+//          },
+//          "en": {
+//            "Name": "Miniatures",
+//            "Description": "Mini versions of makeup products"
+//          }
+//        }
+//      }
+//    ]
+//  },
+//  {
+//    "Id": 28,
+//    "UrlSlug": "oblychchya",
+//    "Priority": 1,
+//    "Image": "oblychchya_image.jpg",
+//    "IsDeleted": false,
+//    "DateCreated": "2025-03-25T00:00:00Z",
+//    "Translations": {
+//      "uk": {
+//        "Name": "Обличчя",
+//        "Description": "Продукти для догляду за обличчям"
+//      },
+//      "en": {
+//        "Name": "Face",
+//        "Description": "Products for facial care"
+//      }
+//    },
+//    "Children": [
+//      {
+//        "Id": 29,
+//        "UrlSlug": "krem-dlya-oblychchya",
+//        "Priority": 1,
+//        "Image": "krem_dlya_oblychchya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 28,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Крем для обличчя",
+//            "Description": "Креми для догляду за обличчям"
+//          },
+//          "en": {
+//            "Name": "Face Cream",
+//            "Description": "Creams for facial care"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 30,
+//        "UrlSlug": "maski-dlya-oblychchya",
+//        "Priority": 2,
+//        "Image": "maski_dlya_oblychchya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 28,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Маски для обличчя",
+//            "Description": "Маски для обличчя"
+//          },
+//          "en": {
+//            "Name": "Face Masks",
+//            "Description": "Facial masks"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 31,
+//        "UrlSlug": "balzami-dlya-oblychchya",
+//        "Priority": 3,
+//        "Image": "balzami_dlya_oblychchya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 28,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Бальзами для обличчя",
+//            "Description": "Бальзами для обличчя"
+//          },
+//          "en": {
+//            "Name": "Face Balms",
+//            "Description": "Balms for face care"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 32,
+//        "UrlSlug": "fliudy-dlya-oblychchya",
+//        "Priority": 4,
+//        "Image": "fliudy_dlya_oblychchya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 28,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Флюїди для обличчя",
+//            "Description": "Флюїди для обличчя"
+//          },
+//          "en": {
+//            "Name": "Face Fluids",
+//            "Description": "Facial fluids"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 33,
+//        "UrlSlug": "sirovatki-eliksyry",
+//        "Priority": 5,
+//        "Image": "sirovatki_eliksyry.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 28,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Сироватки, еліксири",
+//            "Description": "Сироватки та еліксири для обличчя"
+//          },
+//          "en": {
+//            "Name": "Serums and Elixirs",
+//            "Description": "Facial serums and elixirs"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 34,
+//        "UrlSlug": "maslo-ta-olii-dlya-oblychchya",
+//        "Priority": 6,
+//        "Image": "maslo_ta_olii_dlya_oblychchya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 28,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Масло та олія для обличчя",
+//            "Description": "Масла та олії для обличчя"
+//          },
+//          "en": {
+//            "Name": "Face Oils",
+//            "Description": "Oils for face care"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 35,
+//        "UrlSlug": "aromatychna-voda-sprey",
+//        "Priority": 7,
+//        "Image": "aromatychna_voda_sprey.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 28,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Ароматична вода, спрей",
+//            "Description": "Ароматична вода та спреї для обличчя"
+//          },
+//          "en": {
+//            "Name": "Aromatic Water & Sprays",
+//            "Description": "Aromatic facial waters and sprays"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 36,
+//        "UrlSlug": "termalna-voda",
+//        "Priority": 8,
+//        "Image": "termalna_voda.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 28,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Термальна вода",
+//            "Description": "Термальна вода для обличчя"
+//          },
+//          "en": {
+//            "Name": "Thermal Water",
+//            "Description": "Thermal facial water"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 37,
+//        "UrlSlug": "ochyshchennya",
+//        "Priority": 9,
+//        "Image": "ochyshchennya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 28,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Очищення",
+//            "Description": "Засоби для очищення обличчя"
+//          },
+//          "en": {
+//            "Name": "Cleansing",
+//            "Description": "Facial cleansing products"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 38,
+//        "UrlSlug": "antyviko",
+//        "Priority": 10,
+//        "Image": "antyviko.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 28,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Антивікові",
+//            "Description": "Антивікові засоби для обличчя"
+//          },
+//          "en": {
+//            "Name": "Anti-Aging",
+//            "Description": "Anti-aging facial care products"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 39,
+//        "UrlSlug": "tonizuyuchi",
+//        "Priority": 11,
+//        "Image": "tonizuyuchi.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 28,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Тонізуючі",
+//            "Description": "Тонізуючі засоби для обличчя"
+//          },
+//          "en": {
+//            "Name": "Toning",
+//            "Description": "Toning products for the face"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 40,
+//        "UrlSlug": "matuyuchi",
+//        "Priority": 12,
+//        "Image": "matuyuchi.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 28,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Матуючі",
+//            "Description": "Матуючі засоби для обличчя"
+//          },
+//          "en": {
+//            "Name": "Mattifying",
+//            "Description": "Mattifying facial products"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 41,
+//        "UrlSlug": "zhyvlennya",
+//        "Priority": 13,
+//        "Image": "zhyvlennya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 28,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Живлення",
+//            "Description": "Засоби для живлення шкіри обличчя"
+//          },
+//          "en": {
+//            "Name": "Nourishing",
+//            "Description": "Nourishing facial products"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 42,
+//        "UrlSlug": "zvolozhennya",
+//        "Priority": 14,
+//        "Image": "zvolozhennya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 28,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Зволоження",
+//            "Description": "Засоби для зволоження обличчя"
+//          },
+//          "en": {
+//            "Name": "Moisturizing",
+//            "Description": "Moisturizing products for the face"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 43,
+//        "UrlSlug": "zahyst-vid-sontsya",
+//        "Priority": 15,
+//        "Image": "zahyst_vid_sontsya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 28,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Захист від сонця",
+//            "Description": "Засоби для захисту від сонця"
+//          },
+//          "en": {
+//            "Name": "Sun Protection",
+//            "Description": "Sun protection products"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 44,
+//        "UrlSlug": "dohlyad-dlya-ochey",
+//        "Priority": 16,
+//        "Image": "dohlyad_dlya_ochey.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 28,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Догляд для очей",
+//            "Description": "Засоби для догляду за очима"
+//          },
+//          "en": {
+//            "Name": "Eye Care",
+//            "Description": "Eye care products"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 45,
+//        "UrlSlug": "dohlyad-za-hubamy",
+//        "Priority": 17,
+//        "Image": "dohlyad_za_hubamy.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 28,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Догляд за губами",
+//            "Description": "Засоби для догляду за губами"
+//          },
+//          "en": {
+//            "Name": "Lip Care",
+//            "Description": "Products for lip care"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 46,
+//        "UrlSlug": "zasoby-golinnya-dlya-cholovikiv",
+//        "Priority": 18,
+//        "Image": "zasoby_golinnya_dlya_cholovikiv.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 28,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Засоби гоління для чоловіків",
+//            "Description": "Засоби для гоління для чоловіків"
+//          },
+//          "en": {
+//            "Name": "Men’s Shaving Products",
+//            "Description": "Shaving products for men"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 47,
+//        "UrlSlug": "kosmetychni-shchitky",
+//        "Priority": 19,
+//        "Image": "kosmetychni_shchitky.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 28,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Косметичні щітки",
+//            "Description": "Косметичні щітки для обличчя"
+//          },
+//          "en": {
+//            "Name": "Cosmetic Brushes",
+//            "Description": "Facial cosmetic brushes"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 48,
+//        "UrlSlug": "spetszasoby",
+//        "Priority": 20,
+//        "Image": "spetszasoby.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 28,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Спецзасоби",
+//            "Description": "Спеціальні засоби для догляду за обличчям"
+//          },
+//          "en": {
+//            "Name": "Special Products",
+//            "Description": "Special face care products"
+//          }
+//        }
+//      }
+//    ]
+//  },
+//  {
+//    "Id": 49,
+//    "UrlSlug": "volossya",
+//    "Priority": 1,
+//    "Image": "volossya_image.jpg",
+//    "IsDeleted": false,
+//    "DateCreated": "2025-03-25T00:00:00Z",
+//    "Translations": {
+//      "uk": {
+//        "Name": "Волосся",
+//        "Description": "Продукти для догляду за волоссям"
+//      },
+//      "en": {
+//        "Name": "Hair",
+//        "Description": "Hair care products"
+//      }
+//    },
+//    "Children": [
+//      {
+//        "Id": 50,
+//        "UrlSlug": "shampuni",
+//        "Priority": 1,
+//        "Image": "shampuni.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 49,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Шампуні",
+//            "Description": "Шампуні для волосся"
+//          },
+//          "en": {
+//            "Name": "Shampoos",
+//            "Description": "Shampoos for hair"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 51,
+//        "UrlSlug": "opoliskuvach-dlya-volossya",
+//        "Priority": 2,
+//        "Image": "opoliskuvach_dlya_volossya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 49,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Ополіскувач для волосся",
+//            "Description": "Ополіскувачі для волосся"
+//          },
+//          "en": {
+//            "Name": "Hair Rinse",
+//            "Description": "Hair rinses"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 52,
+//        "UrlSlug": "balzam-dlya-volossya",
+//        "Priority": 3,
+//        "Image": "balzam_dlya_volossya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 49,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Бальзам для волосся",
+//            "Description": "Бальзами для волосся"
+//          },
+//          "en": {
+//            "Name": "Hair Balm",
+//            "Description": "Hair balms"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 53,
+//        "UrlSlug": "kondytsioner",
+//        "Priority": 4,
+//        "Image": "kondytsioner.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 49,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Кондиціонер",
+//            "Description": "Кондиціонери для волосся"
+//          },
+//          "en": {
+//            "Name": "Conditioner",
+//            "Description": "Hair conditioners"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 54,
+//        "UrlSlug": "maski-dlya-volossya",
+//        "Priority": 5,
+//        "Image": "maski_dlya_volossya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 49,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Маски для волосся",
+//            "Description": "Маски для волосся"
+//          },
+//          "en": {
+//            "Name": "Hair Masks",
+//            "Description": "Hair masks"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 55,
+//        "UrlSlug": "skrab-i-piling-dlya-shkiry-golovy",
+//        "Priority": 6,
+//        "Image": "skrab_i_piling_dlya_shkiry_golovy.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 49,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Скраб і пілінг для шкіри голови",
+//            "Description": "Скраби та пілінги для шкіри голови"
+//          },
+//          "en": {
+//            "Name": "Scalp Scrub and Peel",
+//            "Description": "Scrubs and peels for scalp"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 56,
+//        "UrlSlug": "vid-lupy",
+//        "Priority": 7,
+//        "Image": "vid_lupy.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 49,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Від лупи",
+//            "Description": "Засоби проти лупи"
+//          },
+//          "en": {
+//            "Name": "Anti-Dandruff",
+//            "Description": "Anti-dandruff products"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 57,
+//        "UrlSlug": "losyon-dlya-volossya",
+//        "Priority": 8,
+//        "Image": "losyon_dlya_volossya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 49,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Лосьйон для волосся",
+//            "Description": "Лосьйони для волосся"
+//          },
+//          "en": {
+//            "Name": "Hair Lotion",
+//            "Description": "Hair lotions"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 58,
+//        "UrlSlug": "oliya-ta-maslo-dlya-volossya",
+//        "Priority": 9,
+//        "Image": "oliya_ta_maslo_dlya_volossya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 49,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Олія та масло для волосся",
+//            "Description": "Олії та масла для волосся"
+//          },
+//          "en": {
+//            "Name": "Hair Oils",
+//            "Description": "Hair oils and butters"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 59,
+//        "UrlSlug": "sirovatky-fliudy-dlya-volossya",
+//        "Priority": 10,
+//        "Image": "sirovatky_fliudy_dlya_volossya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 49,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Сироватки, флюїди для волосся",
+//            "Description": "Сироватки та флюїди для волосся"
+//          },
+//          "en": {
+//            "Name": "Hair Serums and Fluids",
+//            "Description": "Serums and fluids for hair"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 60,
+//        "UrlSlug": "krem-dlya-volossya",
+//        "Priority": 11,
+//        "Image": "krem_dlya_volossya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 49,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Крем для волосся",
+//            "Description": "Креми для волосся"
+//          },
+//          "en": {
+//            "Name": "Hair Cream",
+//            "Description": "Hair creams"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 61,
+//        "UrlSlug": "sprey-dlya-volossya",
+//        "Priority": 12,
+//        "Image": "sprey_dlya_volossya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 49,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Спрей для волосся",
+//            "Description": "Спреї для волосся"
+//          },
+//          "en": {
+//            "Name": "Hair Spray",
+//            "Description": "Hair sprays"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 62,
+//        "UrlSlug": "keratyn-dlya-volossya",
+//        "Priority": 13,
+//        "Image": "keratyn_dlya_volossya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 49,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Кератин для волосся",
+//            "Description": "Кератин для волосся"
+//          },
+//          "en": {
+//            "Name": "Hair Keratin",
+//            "Description": "Keratin for hair"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 63,
+//        "UrlSlug": "zasoby-vid-vypadinnya-volossya",
+//        "Priority": 14,
+//        "Image": "zasoby_vid_vypadinnya_volossya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 49,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Засоби від випадіння волосся",
+//            "Description": "Продукти для зміцнення волосся та запобігання випадінню"
+//          },
+//          "en": {
+//            "Name": "Anti-Hair Loss",
+//            "Description": "Products to strengthen hair and prevent hair loss"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 64,
+//        "UrlSlug": "lak-dlya-volossya",
+//        "Priority": 15,
+//        "Image": "lak_dlya_volossya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 49,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Лак для волосся",
+//            "Description": "Лаки для волосся"
+//          },
+//          "en": {
+//            "Name": "Hair Lacquer",
+//            "Description": "Hair lacquers"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 65,
+//        "UrlSlug": "mousse-dlya-volossya",
+//        "Priority": 16,
+//        "Image": "mousse_dlya_volossya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 49,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Мус для волосся",
+//            "Description": "Муси для волосся"
+//          },
+//          "en": {
+//            "Name": "Hair Mousse",
+//            "Description": "Hair mousses"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 66,
+//        "UrlSlug": "glos-dlya-volossya",
+//        "Priority": 17,
+//        "Image": "glos_dlya_volossya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 49,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Гліс для волосся",
+//            "Description": "Гліси для волосся"
+//          },
+//          "en": {
+//            "Name": "Hair Gloss",
+//            "Description": "Hair gloss products"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 67,
+//        "UrlSlug": "shampuni-dlya-barberiv",
+//        "Priority": 18,
+//        "Image": "shampuni_dlya_barberiv.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 49,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Шампуні для барберів",
+//            "Description": "Спеціальні шампуні для чоловічого волосся"
+//          },
+//          "en": {
+//            "Name": "Barber Shampoos",
+//            "Description": "Special shampoos for men's hair"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 68,
+//        "UrlSlug": "maski-dlya-barberiv",
+//        "Priority": 19,
+//        "Image": "maski_dlya_barberiv.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 49,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Маски для барберів",
+//            "Description": "Маски для чоловічого волосся"
+//          },
+//          "en": {
+//            "Name": "Barber Masks",
+//            "Description": "Masks for men's hair"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 69,
+//        "UrlSlug": "kosmetika-dlya-borody",
+//        "Priority": 20,
+//        "Image": "kosmetika_dlya_borody.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 49,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Косметика для бороди",
+//            "Description": "Засоби догляду за бородою"
+//          },
+//          "en": {
+//            "Name": "Beard Cosmetics",
+//            "Description": "Beard care products"
+//          }
+//        }
+//      },
+//      {
+//        "Id": 70,
+//        "UrlSlug": "aksesuari-dlya-volossya",
+//        "Priority": 21,
+//        "Image": "aksesuari_dlya_volossya.jpg",
+//        "IsDeleted": false,
+//        "DateCreated": "2025-03-25T00:00:00Z",
+//        "ParentId": 49,
+//        "Translations": {
+//          "uk": {
+//            "Name": "Аксесуари для волосся",
+//            "Description": "Аксесуари для догляду та укладки волосся"
+//          },
+//          "en": {
+//            "Name": "Hair Accessories",
+//            "Description": "Hair care and styling accessories"
+//          }
+//        }
+//      }
+//    ]
+//  },
+
+//  [
+//    {
+//      "Id": 71,
+//      "Translations": {
+//        "uk": {
+//          "Name": "Тіло",
+//          "Description": "Продукти для догляду за тілом"
+//        },
+//        "en": {
+//          "Name": "Body",
+//          "Description": "Body care products"
+//        }
+//      },
+//      "UrlSlug": "tilo",
+//      "Priority": 1,
+//      "Image": "tilo_image.jpg",
+//      "IsDeleted": false,
+//      "DateCreated": "2025-03-25T00:00:00Z",
+//      "Children": [
+//        {
+//          "Id": 72,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Для ванни та душу",
+//              "Description": "Продукти для ванни та душу"
+//            },
+//            "en": {
+//              "Name": "Bath & Shower",
+//              "Description": "Bath and shower products"
+//            }
+//          },
+//          "UrlSlug": "dlya-vanny-ta-dushu",
+//          "Priority": 1,
+//          "Image": "dlya_vanny_ta_dushu.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 71
+//        },
+//        {
+//          "Id": 73,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Гігієна і захист",
+//              "Description": "Засоби для гігієни та захисту"
+//            },
+//            "en": {
+//              "Name": "Hygiene & Protection",
+//              "Description": "Hygiene and protection products"
+//            }
+//          },
+//          "UrlSlug": "higiye-na-i-zahyst",
+//          "Priority": 2,
+//          "Image": "higiye_na_i_zahyst.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 71
+//        },
+//        {
+//          "Id": 74,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Догляд за порожниною рота",
+//              "Description": "Продукти для догляду за порожниною рота"
+//            },
+//            "en": {
+//              "Name": "Oral Care",
+//              "Description": "Oral care products"
+//            }
+//          },
+//          "UrlSlug": "doglyad-za-porozhnyynoyu-rota",
+//          "Priority": 3,
+//          "Image": "doglyad_za_porozhnyynoyu_rota.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 71
+//        },
+//        {
+//          "Id": 75,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Депіляція",
+//              "Description": "Засоби для депіляції"
+//            },
+//            "en": {
+//              "Name": "Depilation",
+//              "Description": "Depilation products"
+//            }
+//          },
+//          "UrlSlug": "depylyatsiya",
+//          "Priority": 4,
+//          "Image": "depylyatsiya.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 71
+//        },
+//        {
+//          "Id": 76,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Дезодоранти, антиперспіранти",
+//              "Description": "Дезодоранти та антиперспіранти"
+//            },
+//            "en": {
+//              "Name": "Deodorants & Antiperspirants",
+//              "Description": "Deodorants and antiperspirants"
+//            }
+//          },
+//          "UrlSlug": "dezodoranty-antiperspyranty",
+//          "Priority": 5,
+//          "Image": "dezodoranty_antiperspyranty.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 71
+//        },
+//        {
+//          "Id": 77,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Косметика для тіла",
+//              "Description": "Засоби для догляду за тілом"
+//            },
+//            "en": {
+//              "Name": "Body Cosmetics",
+//              "Description": "Body care cosmetics"
+//            }
+//          },
+//          "UrlSlug": "kosmetyka-dlya-tila",
+//          "Priority": 6,
+//          "Image": "kosmetyka_dlya_tila.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 71
+//        },
+//        {
+//          "Id": 78,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Косметика для рук",
+//              "Description": "Косметика для догляду за руками"
+//            },
+//            "en": {
+//              "Name": "Hand Care Cosmetics",
+//              "Description": "Hand care cosmetics"
+//            }
+//          },
+//          "UrlSlug": "kosmetyka-dlya-ruk",
+//          "Priority": 7,
+//          "Image": "kosmetyka_dlya_ruk.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 71
+//        },
+//        {
+//          "Id": 79,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Косметика для ніг",
+//              "Description": "Косметика для догляду за ногами"
+//            },
+//            "en": {
+//              "Name": "Foot Care Cosmetics",
+//              "Description": "Foot care cosmetics"
+//            }
+//          },
+//          "UrlSlug": "kosmetyka-dlya-nih",
+//          "Priority": 8,
+//          "Image": "kosmetyka_dlya_nig.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 71
+//        },
+//        {
+//          "Id": 80,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Засоби для масажу",
+//              "Description": "Засоби для масажу тіла"
+//            },
+//            "en": {
+//              "Name": "Massage Products",
+//              "Description": "Body massage products"
+//            }
+//          },
+//          "UrlSlug": "zasoby-dlya-masazhu",
+//          "Priority": 9,
+//          "Image": "zasoby_dlya_masazhu.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 71
+//        },
+//        {
+//          "Id": 81,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Антицелюліт",
+//              "Description": "Засоби для боротьби з целюлітом"
+//            },
+//            "en": {
+//              "Name": "Anti-Cellulite",
+//              "Description": "Anti-cellulite products"
+//            }
+//          },
+//          "UrlSlug": "antytselyulit",
+//          "Priority": 10,
+//          "Image": "antytselyulit.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 71
+//        },
+//        {
+//          "Id": 82,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Засоби для засмаги",
+//              "Description": "Засоби для засмаги"
+//            },
+//            "en": {
+//              "Name": "Tanning Products",
+//              "Description": "Tanning products"
+//            }
+//          },
+//          "UrlSlug": "zasoby-dlya-zasmagy",
+//          "Priority": 11,
+//          "Image": "zasoby_dlya_zasmagy.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 71
+//        },
+//        {
+//          "Id": 83,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Захист від сонця",
+//              "Description": "Засоби для захисту від сонця"
+//            },
+//            "en": {
+//              "Name": "Sun Protection",
+//              "Description": "Sun protection products"
+//            }
+//          },
+//          "UrlSlug": "zahyst-vid-sontsya-tila",
+//          "Priority": 12,
+//          "Image": "zahyst_vid_sontsya_tila.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 71
+//        },
+//        {
+//          "Id": 84,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Масла та олії",
+//              "Description": "Масла та олії для догляду за тілом"
+//            },
+//            "en": {
+//              "Name": "Oils",
+//              "Description": "Oils for body care"
+//            }
+//          },
+//          "UrlSlug": "masla-ta-oliyi",
+//          "Priority": 13,
+//          "Image": "masla_ta_oliyi.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 71
+//        },
+//        {
+//          "Id": 85,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Аромати для дому",
+//              "Description": "Аромати та свічки для дому"
+//            },
+//            "en": {
+//              "Name": "Home Fragrances",
+//              "Description": "Home fragrances and candles"
+//            }
+//          },
+//          "UrlSlug": "aromaty-dlya-domu",
+//          "Priority": 14,
+//          "Image": "aromaty_dlya_domu.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 71
+//        }
+//      ]
+//    },
+//    {
+//      "Id": 86,
+//      "Translations": {
+//        "uk": {
+//          "Name": "Здоров'я і догляд",
+//          "Description": "Продукти для здоров'я та догляду"
+//        },
+//        "en": {
+//          "Name": "Health & Care",
+//          "Description": "Products for health and care"
+//        }
+//      },
+//      "UrlSlug": "zdorovya-i-doglyad",
+//      "Priority": 1,
+//      "Image": "zdorovya_i_doglyad.jpg",
+//      "IsDeleted": false,
+//      "DateCreated": "2025-03-25T00:00:00Z",
+//      "Children": [
+//        {
+//          "Id": 87,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Дієтичні та харчові добавки",
+//              "Description": "Дієтичні добавки та харчові добавки"
+//            },
+//            "en": {
+//              "Name": "Dietary & Food Supplements",
+//              "Description": "Dietary supplements and food additives"
+//            }
+//          },
+//          "UrlSlug": "diyetychni-ta-harchovi-dodavky",
+//          "Priority": 1,
+//          "Image": "diyetychni_ta_harchovi_dodavky.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 86
+//        },
+//        {
+//          "Id": 88,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Натуральна та органічна косметика",
+//              "Description": "Натуральні та органічні продукти для догляду"
+//            },
+//            "en": {
+//              "Name": "Natural & Organic Cosmetics",
+//              "Description": "Natural and organic care products"
+//            }
+//          },
+//          "UrlSlug": "naturalna-ta-organichna-kosmetyka",
+//          "Priority": 2,
+//          "Image": "naturalna_ta_organizna_kosmetyka.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 86
+//        },
+//        {
+//          "Id": 89,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Дерматокосметика",
+//              "Description": "Продукти для дерматологічного догляду"
+//            },
+//            "en": {
+//              "Name": "Dermatocosmetics",
+//              "Description": "Products for dermatological care"
+//            }
+//          },
+//          "UrlSlug": "dermatokosmetyka",
+//          "Priority": 3,
+//          "Image": "dermatokosmetyka.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 86
+//        },
+//        {
+//          "Id": 90,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Косметика для вагітних",
+//              "Description": "Продукти для вагітних жінок"
+//            },
+//            "en": {
+//              "Name": "Maternity Cosmetics",
+//              "Description": "Products for pregnant women"
+//            }
+//          },
+//          "UrlSlug": "kosmetyka-dlya-vahittyh",
+//          "Priority": 4,
+//          "Image": "kosmetyka_dlya_vahittyh.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 86
+//        },
+//        {
+//          "Id": 91,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Дитяча косметика",
+//              "Description": "Косметика для дітей"
+//            },
+//            "en": {
+//              "Name": "Children's Cosmetics",
+//              "Description": "Cosmetics for children"
+//            }
+//          },
+//          "UrlSlug": "dytyacha-kosmetyka",
+//          "Priority": 5,
+//          "Image": "dytyacha_kosmetyka.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 86
+//        },
+//        {
+//          "Id": 92,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Підгузки",
+//              "Description": "Підгузки для немовлят та дітей"
+//            },
+//            "en": {
+//              "Name": "Diapers",
+//              "Description": "Diapers for infants and children"
+//            }
+//          },
+//          "UrlSlug": "pidhuzky",
+//          "Priority": 6,
+//          "Image": "pidhuzky.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 86
+//        },
+//        {
+//          "Id": 93,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Інтимні товари",
+//              "Description": "Продукти для інтимної гігієни та догляду"
+//            },
+//            "en": {
+//              "Name": "Intimate Products",
+//              "Description": "Products for intimate hygiene and care"
+//            }
+//          },
+//          "UrlSlug": "intymni-tovary",
+//          "Priority": 7,
+//          "Image": "intymni_tovary.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 86
+//        },
+//        {
+//          "Id": 94,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Секс іграшки",
+//              "Description": "Секс іграшки для дорослих"
+//            },
+//            "en": {
+//              "Name": "Adult Toys",
+//              "Description": "Adult sex toys"
+//            }
+//          },
+//          "UrlSlug": "seks-igrashky",
+//          "Priority": 8,
+//          "Image": "seks_igrashky.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 86
+//        },
+//        {
+//          "Id": 95,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Догляд за порожниною рота",
+//              "Description": "Засоби для догляду за порожниною рота"
+//            },
+//            "en": {
+//              "Name": "Oral Care",
+//              "Description": "Oral care products"
+//            }
+//          },
+//          "UrlSlug": "doglyad-za-porozhnyynoyu-rota",
+//          "Priority": 9,
+//          "Image": "doglyad_za_porozhnyynoyu_rota.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 86
+//        },
+//        {
+//          "Id": 96,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Оптика",
+//              "Description": "Продукти для корекції зору"
+//            },
+//            "en": {
+//              "Name": "Optics",
+//              "Description": "Vision correction products"
+//            }
+//          },
+//          "UrlSlug": "optyka",
+//          "Priority": 10,
+//          "Image": "optyka.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 86
+//        },
+//        {
+//          "Id": 97,
+//          "Translations": {
+//            "uk": {
+//              "Name": "Консультації експертів",
+//              "Description": "Консультації з експертами в галузі здоров'я та догляду"
+//            },
+//            "en": {
+//              "Name": "Expert Consultations",
+//              "Description": "Consultations with health and care experts"
+//            }
+//          },
+//          "UrlSlug": "konsultatsiyi-ekspertiv",
+//          "Priority": 11,
+//          "Image": "konsultatsiyi_ekspertiv.jpg",
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 86
+//        }
+//      ]
+//    },
+//    {
+//      "Id": 97,
+//      "Name": {
+//        "uk": "Аксесуари і техніка",
+//        "en": "Accessories & Devices"
+//      },
+//      "UrlSlug": "aksesuary-i-tehnika",
+//      "Priority": 1,
+//      "Image": "aksesuary_i_tehnika.jpg",
+//      "Description": {
+//        "uk": "Аксесуари та техніка для краси та догляду",
+//        "en": "Accessories and devices for beauty and care"
+//      },
+//      "IsDeleted": false,
+//      "DateCreated": "2025-03-25T00:00:00Z",
+//      "Children": [
+//        {
+//          "Id": 98,
+//          "Name": {
+//            "uk": "Для волосся",
+//            "en": "Hair Tools"
+//          },
+//          "UrlSlug": "dlya-volossya",
+//          "Priority": 1,
+//          "Image": "dlya_volossya.jpg",
+//          "Description": {
+//            "uk": "Аксесуари та техніка для волосся",
+//            "en": "Hair accessories and devices"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 97
+//        },
+//        {
+//          "Id": 99,
+//          "Name": {
+//            "uk": "Для макіяжу",
+//            "en": "Makeup Tools"
+//          },
+//          "UrlSlug": "dlya-makiyazhu",
+//          "Priority": 2,
+//          "Image": "dlya_makiyazhu.jpg",
+//          "Description": {
+//            "uk": "Аксесуари для макіяжу",
+//            "en": "Makeup accessories"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 97
+//        },
+//        {
+//          "Id": 100,
+//          "Name": {
+//            "uk": "Гігієна та догляд",
+//            "en": "Hygiene & Care"
+//          },
+//          "UrlSlug": "hihiyena-ta-doglyad",
+//          "Priority": 3,
+//          "Image": "hihiyena_ta_doglyad.jpg",
+//          "Description": {
+//            "uk": "Аксесуари для гігієни та догляду",
+//            "en": "Accessories for hygiene and care"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 97
+//        },
+//        {
+//          "Id": 101,
+//          "Name": {
+//            "uk": "Аксесуари",
+//            "en": "Accessories"
+//          },
+//          "UrlSlug": "aksesuary",
+//          "Priority": 4,
+//          "Image": "aksesuary.jpg",
+//          "Description": {
+//            "uk": "Загальні аксесуари для краси та догляду",
+//            "en": "General accessories for beauty and care"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 97
+//        },
+//        {
+//          "Id": 102,
+//          "Name": {
+//            "uk": "Дорожні набори",
+//            "en": "Travel Kits"
+//          },
+//          "UrlSlug": "dorozhni-nabory",
+//          "Priority": 5,
+//          "Image": "dorozhni_nabory.jpg",
+//          "Description": {
+//            "uk": "Набори аксесуарів для подорожей",
+//            "en": "Accessory kits for travel"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 97
+//        },
+//        {
+//          "Id": 103,
+//          "Name": {
+//            "uk": "Дзеркала",
+//            "en": "Mirrors"
+//          },
+//          "UrlSlug": "dzerkala",
+//          "Priority": 6,
+//          "Image": "dzerkala.jpg",
+//          "Description": {
+//            "uk": "Дзеркала для краси та догляду",
+//            "en": "Mirrors for beauty and care"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 97
+//        },
+//        {
+//          "Id": 104,
+//          "Name": {
+//            "uk": "Сумки, косметички",
+//            "en": "Bags & Cosmetic Cases"
+//          },
+//          "UrlSlug": "sumky-kosmetychky",
+//          "Priority": 7,
+//          "Image": "sumky_kosmetychky.jpg",
+//          "Description": {
+//            "uk": "Сумки та косметички для зберігання косметики",
+//            "en": "Bags and cosmetic cases for storing cosmetics"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 97
+//        },
+//        {
+//          "Id": 105,
+//          "Name": {
+//            "uk": "Пінцет",
+//            "en": "Tweezers"
+//          },
+//          "UrlSlug": "pintset",
+//          "Priority": 8,
+//          "Image": "pintset.jpg",
+//          "Description": {
+//            "uk": "Пінцети для макіяжу та догляду",
+//            "en": "Tweezers for makeup and care"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 97
+//        },
+//        {
+//          "Id": 106,
+//          "Name": {
+//            "uk": "Щипці для вій",
+//            "en": "Eyelash Curlers"
+//          },
+//          "UrlSlug": "shchyptsi-dlya-viy",
+//          "Priority": 9,
+//          "Image": "shchyptsi_dlya_viy.jpg",
+//          "Description": {
+//            "uk": "Щипці для завивки та догляду за віями",
+//            "en": "Eyelash curlers for curling and care"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 97
+//        },
+//        {
+//          "Id": 107,
+//          "Name": {
+//            "uk": "Інструменти для манікюру та педікюру",
+//            "en": "Manicure & Pedicure Tools"
+//          },
+//          "UrlSlug": "instrumenty-dlya-manikyuru-ta-pedikyuru",
+//          "Priority": 10,
+//          "Image": "instrumenty_dlya_manikyuru_ta_pedikyuru.jpg",
+//          "Description": {
+//            "uk": "Інструменти для манікюру та педікюру",
+//            "en": "Tools for manicure and pedicure"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 97
+//        },
+//        {
+//          "Id": 108,
+//          "Name": {
+//            "uk": "Аксесуари для парафінотерапії",
+//            "en": "Paraffin Therapy Accessories"
+//          },
+//          "UrlSlug": "aksesuary-dlya-parafinoterapiyi",
+//          "Priority": 11,
+//          "Image": "aksesuary_dlya_parafinoterapiyi.jpg",
+//          "Description": {
+//            "uk": "Аксесуари для парафінотерапії",
+//            "en": "Accessories for paraffin therapy"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 97
+//        },
+//        {
+//          "Id": 109,
+//          "Name": {
+//            "uk": "Для депіляції",
+//            "en": "Depilation Tools"
+//          },
+//          "UrlSlug": "dlya-depilyatsiyi",
+//          "Priority": 12,
+//          "Image": "dlya_depilyatsiyi.jpg",
+//          "Description": {
+//            "uk": "Аксесуари для депіляції",
+//            "en": "Accessories for depilation"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 97
+//        },
+//        {
+//          "Id": 110,
+//          "Name": {
+//            "uk": "Масажери",
+//            "en": "Massagers"
+//          },
+//          "UrlSlug": "masazhery",
+//          "Priority": 13,
+//          "Image": "masazhery.jpg",
+//          "Description": {
+//            "uk": "Масажери для тіла та обличчя",
+//            "en": "Massagers for body and face"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 97
+//        },
+//        {
+//          "Id": 111,
+//          "Name": {
+//            "uk": "Фітнес-браслет",
+//            "en": "Fitness Bracelet"
+//          },
+//          "UrlSlug": "fitnes-braslet",
+//          "Priority": 14,
+//          "Image": "fitnes_braslet.jpg",
+//          "Description": {
+//            "uk": "Фітнес-браслети для контролю здоров'я",
+//            "en": "Fitness bracelets for health tracking"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 97
+//        },
+//        {
+//          "Id": 112,
+//          "Name": {
+//            "uk": "Спецзасоби",
+//            "en": "Special Products"
+//          },
+//          "UrlSlug": "speczasyoby",
+//          "Priority": 15,
+//          "Image": "speczasyoby.jpg",
+//          "Description": {
+//            "uk": "Спеціальні засоби для краси та догляду",
+//            "en": "Special products for beauty and care"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 97
+//        }
+//      ]
+//    },
+//    {
+//      "Id": 113,
+//      "Name": {
+//        "uk": "Одяг",
+//        "en": "Clothing"
+//      },
+//      "UrlSlug": "odyah",
+//      "Priority": 1,
+//      "Image": "odyah.jpg",
+//      "Description": {
+//        "uk": "Категорія одягу для жінок та чоловіків",
+//        "en": "Clothing category for women and men"
+//      },
+//      "IsDeleted": false,
+//      "DateCreated": "2025-03-25T00:00:00Z",
+//      "Children": [
+//        {
+//          "Id": 114,
+//          "Name": {
+//            "uk": "Спідня білизна",
+//            "en": "Underwear"
+//          },
+//          "UrlSlug": "spidnya-bilyzna",
+//          "Priority": 1,
+//          "Image": "spidnya_bilyzna.jpg",
+//          "Description": {
+//            "uk": "Спідня білизна для жінок та чоловіків",
+//            "en": "Underwear for women and men"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 113
+//        },
+//        {
+//          "Id": 115,
+//          "Name": {
+//            "uk": "Панчішно-шкарпеткові вироби",
+//            "en": "Hosiery"
+//          },
+//          "UrlSlug": "panchishno-shkarpetkovi-viroby",
+//          "Priority": 2,
+//          "Image": "panchishno_shkarpetkovi_viroby.jpg",
+//          "Description": {
+//            "uk": "Панчохи, шкарпетки та колготки",
+//            "en": "Stockings, socks, and tights"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 113
+//        },
+//        {
+//          "Id": 116,
+//          "Name": {
+//            "uk": "Органайзер для білизни",
+//            "en": "Underwear Organizer"
+//          },
+//          "UrlSlug": "organyzer-dlya-bilyznyi",
+//          "Priority": 3,
+//          "Image": "organyzer_dlya_bilyznyi.jpg",
+//          "Description": {
+//            "uk": "Органайзери для зберігання білизни",
+//            "en": "Organizers for storing underwear"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 113
+//        },
+//        {
+//          "Id": 117,
+//          "Name": {
+//            "uk": "Інтимний одяг",
+//            "en": "Intimate Clothing"
+//          },
+//          "UrlSlug": "intymnyy-odyah",
+//          "Priority": 4,
+//          "Image": "intymnyy_odyah.jpg",
+//          "Description": {
+//            "uk": "Інтимний одяг для жінок та чоловіків",
+//            "en": "Intimate clothing for women and men"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 113
+//        }
+//      ]
+//    },
+//    {
+//      "Id": 118,
+//      "Name": {
+//        "uk": "Чоловікам",
+//        "en": "For Men"
+//      },
+//      "UrlSlug": "cholovikam",
+//      "Priority": 1,
+//      "Image": "cholovikam.jpg",
+//      "Description": {
+//        "uk": "Категорія товарів для чоловіків",
+//        "en": "Category of products for men"
+//      },
+//      "IsDeleted": false,
+//      "DateCreated": "2025-03-25T00:00:00Z",
+//      "Children": [
+//        {
+//          "Id": 119,
+//          "Name": {
+//            "uk": "Чоловіча парфумерія",
+//            "en": "Men's Perfume"
+//          },
+//          "UrlSlug": "cholovicha-parfyumeriya",
+//          "Priority": 1,
+//          "Image": "cholovicha_parfyumeriya.jpg",
+//          "Description": {
+//            "uk": "Парфумерія для чоловіків",
+//            "en": "Perfume for men"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 118
+//        },
+//        {
+//          "Id": 120,
+//          "Name": {
+//            "uk": "Дезодоранти",
+//            "en": "Deodorants"
+//          },
+//          "UrlSlug": "deodoranty",
+//          "Priority": 2,
+//          "Image": "deodoranty.jpg",
+//          "Description": {
+//            "uk": "Дезодоранти для чоловіків",
+//            "en": "Deodorants for men"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 118
+//        },
+//        {
+//          "Id": 121,
+//          "Name": {
+//            "uk": "Догляд за тілом та обличчям",
+//            "en": "Body & Face Care"
+//          },
+//          "UrlSlug": "dohlyad-za-tilom-ta-oblychchyam",
+//          "Priority": 3,
+//          "Image": "dohlyad_za_tilom.jpg",
+//          "Description": {
+//            "uk": "Засоби для догляду за тілом та обличчям для чоловіків",
+//            "en": "Products for body and face care for men"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 118
+//        },
+//        {
+//          "Id": 122,
+//          "Name": {
+//            "uk": "Засоби для гоління",
+//            "en": "Shaving Products"
+//          },
+//          "UrlSlug": "zasoby-dlya-holinnya",
+//          "Priority": 4,
+//          "Image": "zasoby_dlya_golinnya.jpg",
+//          "Description": {
+//            "uk": "Засоби для гоління для чоловіків",
+//            "en": "Shaving products for men"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 118
+//        },
+//        {
+//          "Id": 123,
+//          "Name": {
+//            "uk": "Засоби після гоління",
+//            "en": "Aftershave Products"
+//          },
+//          "UrlSlug": "zasoby-pislya-holinnya",
+//          "Priority": 5,
+//          "Image": "zasoby_pislya_golinnya.jpg",
+//          "Description": {
+//            "uk": "Засоби для післягоління для чоловіків",
+//            "en": "Aftershave products for men"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 118
+//        },
+//        {
+//          "Id": 124,
+//          "Name": {
+//            "uk": "Догляд за волоссям",
+//            "en": "Hair Care"
+//          },
+//          "UrlSlug": "dohlyad-za-volossyam",
+//          "Priority": 6,
+//          "Image": "dohlyad_za_volossyam.jpg",
+//          "Description": {
+//            "uk": "Засоби для догляду за волоссям для чоловіків",
+//            "en": "Hair care products for men"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 118
+//        },
+//        {
+//          "Id": 125,
+//          "Name": {
+//            "uk": "Інструменти та аксесуари",
+//            "en": "Tools & Accessories"
+//          },
+//          "UrlSlug": "instrumenty-ta-aksesuary",
+//          "Priority": 7,
+//          "Image": "instrumenty_ta_aksesuary.jpg",
+//          "Description": {
+//            "uk": "Інструменти та аксесуари для чоловіків",
+//            "en": "Tools and accessories for men"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 118
+//        },
+//        {
+//          "Id": 126,
+//          "Name": {
+//            "uk": "Інтимні товари",
+//            "en": "Intimate Products"
+//          },
+//          "UrlSlug": "intymni-tovary",
+//          "Priority": 8,
+//          "Image": "intymni_tovary.jpg",
+//          "Description": {
+//            "uk": "Інтимні товари для чоловіків",
+//            "en": "Intimate products for men"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 118
+//        }
+//      ]
+//    },
+//    {
+//      "Id": 127,
+//      "Name": {
+//        "uk": "Подарунки",
+//        "en": "Gifts"
+//      },
+//      "UrlSlug": "podyrunky",
+//      "Priority": 1,
+//      "Image": "podyrunky.jpg",
+//      "Description": {
+//        "uk": "Категорія подарунків для всіх",
+//        "en": "Category of gifts for everyone"
+//      },
+//      "IsDeleted": false,
+//      "DateCreated": "2025-03-25T00:00:00Z",
+//      "Children": [
+//        {
+//          "Id": 128,
+//          "Name": {
+//            "uk": "Подарункові набори",
+//            "en": "Gift Sets"
+//          },
+//          "UrlSlug": "podyrunkovi-nabory",
+//          "Priority": 1,
+//          "Image": "podyrunkovi_nabory.jpg",
+//          "Description": {
+//            "uk": "Набори для подарунків",
+//            "en": "Sets for gifts"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 127
+//        },
+//        {
+//          "Id": 129,
+//          "Name": {
+//            "uk": "Подарункові сертифікати",
+//            "en": "Gift Certificates"
+//          },
+//          "UrlSlug": "podyrunkovi-sertyfikaty",
+//          "Priority": 2,
+//          "Image": "podyrunkovi_sertyfikaty.jpg",
+//          "Description": {
+//            "uk": "Сертифікати для подарунків",
+//            "en": "Certificates for gifts"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 127
+//        },
+//        {
+//          "Id": 130,
+//          "Name": {
+//            "uk": "Електронні сертифікати",
+//            "en": "Electronic Certificates"
+//          },
+//          "UrlSlug": "elektronni-sertyfikaty",
+//          "Priority": 3,
+//          "Image": "elektronni_sertyfikaty.jpg",
+//          "Description": {
+//            "uk": "Електронні сертифікати для подарунків",
+//            "en": "Electronic certificates for gifts"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 127
+//        },
+//        {
+//          "Id": 131,
+//          "Name": {
+//            "uk": "Подарункові упаковки",
+//            "en": "Gift Wrapping"
+//          },
+//          "UrlSlug": "podyrunkovi-upakovky",
+//          "Priority": 4,
+//          "Image": "podyrunkovi_upakovky.jpg",
+//          "Description": {
+//            "uk": "Упаковки для подарунків",
+//            "en": "Wrapping for gifts"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 127
+//        },
+//        {
+//          "Id": 132,
+//          "Name": {
+//            "uk": "Адвент-календарі",
+//            "en": "Advent Calendars"
+//          },
+//          "UrlSlug": "advent-kalendari",
+//          "Priority": 5,
+//          "Image": "advent_kalendari.jpg",
+//          "Description": {
+//            "uk": "Адвент-календарі для подарунків",
+//            "en": "Advent calendars for gifts"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 127
+//        },
+//        {
+//          "Id": 133,
+//          "Name": {
+//            "uk": "Подарунки для жінок",
+//            "en": "Gifts for Women"
+//          },
+//          "UrlSlug": "podyrunky-dlya-zhinok",
+//          "Priority": 6,
+//          "Image": "podyrunky_dlya_zhinok.jpg",
+//          "Description": {
+//            "uk": "Подарунки для жінок",
+//            "en": "Gifts for women"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 127
+//        },
+//        {
+//          "Id": 134,
+//          "Name": {
+//            "uk": "Подарунки для чоловіків",
+//            "en": "Gifts for Men"
+//          },
+//          "UrlSlug": "podyrunky-dlya-cholovikiv",
+//          "Priority": 7,
+//          "Image": "podyrunky_dlya_cholovikiv.jpg",
+//          "Description": {
+//            "uk": "Подарунки для чоловіків",
+//            "en": "Gifts for men"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 127
+//        },
+//        {
+//          "Id": 135,
+//          "Name": {
+//            "uk": "Ідеї до Дня народження",
+//            "en": "Birthday Ideas"
+//          },
+//          "UrlSlug": "ideyi-do-dnya-narodzhennya",
+//          "Priority": 8,
+//          "Image": "ideyi_do_dnya_narodzhennya.jpg",
+//          "Description": {
+//            "uk": "Ідеї подарунків до Дня народження",
+//            "en": "Gift ideas for birthdays"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 127
+//        },
+//        {
+//          "Id": 136,
+//          "Name": {
+//            "uk": "Новий рік і Різдво",
+//            "en": "New Year & Christmas"
+//          },
+//          "UrlSlug": "novyy-rik-i-rizdvo",
+//          "Priority": 9,
+//          "Image": "novyy_rik_i_rizdvo.jpg",
+//          "Description": {
+//            "uk": "Подарунки до Нового року і Різдва",
+//            "en": "Gifts for New Year and Christmas"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 127
+//        },
+//        {
+//          "Id": 137,
+//          "Name": {
+//            "uk": "Wonder Bundle",
+//            "en": "Wonder Bundle"
+//          },
+//          "UrlSlug": "wonder-bundle",
+//          "Priority": 10,
+//          "Image": "wonder_bundle.jpg",
+//          "Description": {
+//            "uk": "Подарункові пакети Wonder Bundle",
+//            "en": "Wonder Bundle gift packs"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 127
+//        },
+//        {
+//          "Id": 138,
+//          "Name": {
+//            "uk": "Акції брендів",
+//            "en": "Brand Promotions"
+//          },
+//          "UrlSlug": "aktsiyi-brendiv",
+//          "Priority": 11,
+//          "Image": "aktsiyi_brendiv.jpg",
+//          "Description": {
+//            "uk": "Акції брендів на подарунки",
+//            "en": "Brand promotions on gifts"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 127
+//        },
+//        {
+//          "Id": 139,
+//          "Name": {
+//            "uk": "Beauty-club MAKEUP",
+//            "en": "Beauty Club MAKEUP"
+//          },
+//          "UrlSlug": "beauty-club-makeup",
+//          "Priority": 12,
+//          "Image": "beauty_club_makeup.jpg",
+//          "Description": {
+//            "uk": "Подарунки для учасників Beauty-club MAKEUP",
+//            "en": "Gifts for Beauty Club MAKEUP members"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 127
+//        }
+//      ]
+//    },
+//    {
+//      "Id": 140,
+//      "Name": {
+//        "uk": "Бренди",
+//        "en": "Brands"
+//      },
+//      "UrlSlug": "brendy",
+//      "Priority": 1,
+//      "Image": "brendy.jpg",
+//      "Description": {
+//        "uk": "Категорія брендів для всіх продуктів",
+//        "en": "Category of brands for all products"
+//      },
+//      "IsDeleted": false,
+//      "DateCreated": "2025-03-25T00:00:00Z",
+//      "Children": [
+//        {
+//          "Id": 141,
+//          "Name": {
+//            "uk": "Armand Basi",
+//            "en": "Armand Basi"
+//          },
+//          "UrlSlug": "armand-basi",
+//          "Priority": 1,
+//          "Image": "armand_basi.jpg",
+//          "Description": {
+//            "uk": "Продукти бренду Armand Basi",
+//            "en": "Products of Armand Basi brand"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 140
+//        },
+//        {
+//          "Id": 142,
+//          "Name": {
+//            "uk": "Armani",
+//            "en": "Armani"
+//          },
+//          "UrlSlug": "armani",
+//          "Priority": 2,
+//          "Image": "armani.jpg",
+//          "Description": {
+//            "uk": "Продукти бренду Armani",
+//            "en": "Products of Armani brand"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 140
+//        },
+//        {
+//          "Id": 143,
+//          "Name": {
+//            "uk": "Angel Schlesser",
+//            "en": "Angel Schlesser"
+//          },
+//          "UrlSlug": "angel-schlesser",
+//          "Priority": 3,
+//          "Image": "angel_schlesser.jpg",
+//          "Description": {
+//            "uk": "Продукти бренду Angel Schlesser",
+//            "en": "Products of Angel Schlesser brand"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 140
+//        },
+//        {
+//          "Id": 144,
+//          "Name": {
+//            "uk": "Artdeco",
+//            "en": "Artdeco"
+//          },
+//          "UrlSlug": "artdeco",
+//          "Priority": 4,
+//          "Image": "artdeco.jpg",
+//          "Description": {
+//            "uk": "Продукти бренду Artdeco",
+//            "en": "Products of Artdeco brand"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 140
+//        },
+//        {
+//          "Id": 145,
+//          "Name": {
+//            "uk": "Bioderma",
+//            "en": "Bioderma"
+//          },
+//          "UrlSlug": "bioderma",
+//          "Priority": 5,
+//          "Image": "bioderma.jpg",
+//          "Description": {
+//            "uk": "Продукти бренду Bioderma",
+//            "en": "Products of Bioderma brand"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 140
+//        },
+//        {
+//          "Id": 146,
+//          "Name": {
+//            "uk": "Bobbi Brown",
+//            "en": "Bobbi Brown"
+//          },
+//          "UrlSlug": "bobbi-brown",
+//          "Priority": 6,
+//          "Image": "bobbi_brown.jpg",
+//          "Description": {
+//            "uk": "Продукти бренду Bobbi Brown",
+//            "en": "Products of Bobbi Brown brand"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 140
+//        },
+//        {
+//          "Id": 147,
+//          "Name": {
+//            "uk": "Bourjois",
+//            "en": "Bourjois"
+//          },
+//          "UrlSlug": "bourjois",
+//          "Priority": 7,
+//          "Image": "bourjois.jpg",
+//          "Description": {
+//            "uk": "Продукти бренду Bourjois",
+//            "en": "Products of Bourjois brand"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 140
+//        },
+//        {
+//          "Id": 148,
+//          "Name": {
+//            "uk": "CeraVe",
+//            "en": "CeraVe"
+//          },
+//          "UrlSlug": "cerave",
+//          "Priority": 8,
+//          "Image": "cerave.jpg",
+//          "Description": {
+//            "uk": "Продукти бренду CeraVe",
+//            "en": "Products of CeraVe brand"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 140
+//        },
+//        {
+//          "Id": 149,
+//          "Name": {
+//            "uk": "Chanel",
+//            "en": "Chanel"
+//          },
+//          "UrlSlug": "chanel",
+//          "Priority": 9,
+//          "Image": "chanel.jpg",
+//          "Description": {
+//            "uk": "Продукти бренду Chanel",
+//            "en": "Products of Chanel brand"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 140
+//        },
+//        {
+//          "Id": 150,
+//          "Name": {
+//            "uk": "Charlotte Tilbury",
+//            "en": "Charlotte Tilbury"
+//          },
+//          "UrlSlug": "charlotte-tilbury",
+//          "Priority": 10,
+//          "Image": "charlotte_tilbury.jpg",
+//          "Description": {
+//            "uk": "Продукти бренду Charlotte Tilbury",
+//            "en": "Products of Charlotte Tilbury brand"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 140
+//        },
+//        {
+//          "Id": 151,
+//          "Name": {
+//            "uk": "Christina",
+//            "en": "Christina"
+//          },
+//          "UrlSlug": "christina",
+//          "Priority": 11,
+//          "Image": "christina.jpg",
+//          "Description": {
+//            "uk": "Продукти бренду Christina",
+//            "en": "Products of Christina brand"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 140
+//        },
+//        {
+//          "Id": 152,
+//          "Name": {
+//            "uk": "Clinique",
+//            "en": "Clinique"
+//          },
+//          "UrlSlug": "clinique",
+//          "Priority": 12,
+//          "Image": "clinique.jpg",
+//          "Description": {
+//            "uk": "Продукти бренду Clinique",
+//            "en": "Products of Clinique brand"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 140
+//        },
+//        {
+//          "Id": 153,
+//          "Name": {
+//            "uk": "Creed",
+//            "en": "Creed"
+//          },
+//          "UrlSlug": "creed",
+//          "Priority": 13,
+//          "Image": "creed.jpg",
+//          "Description": {
+//            "uk": "Продукти бренду Creed",
+//            "en": "Products of Creed brand"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 140
+//        },
+//        {
+//          "Id": 154,
+//          "Name": {
+//            "uk": "Dior",
+//            "en": "Dior"
+//          },
+//          "UrlSlug": "dior",
+//          "Priority": 14,
+//          "Image": "dior.jpg",
+//          "Description": {
+//            "uk": "Продукти бренду Dior",
+//            "en": "Products of Dior brand"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 140
+//        },
+//        {
+//          "Id": 155,
+//          "Name": {
+//            "uk": "Donna Karan",
+//            "en": "Donna Karan"
+//          },
+//          "UrlSlug": "donna-karan",
+//          "Priority": 15,
+//          "Image": "donna_karan.jpg",
+//          "Description": {
+//            "uk": "Продукти бренду Donna Karan",
+//            "en": "Products of Donna Karan brand"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 140
+//        },
+//        {
+//          "Id": 156,
+//          "Name": {
+//            "uk": "Dolce & Gabbana",
+//            "en": "Dolce & Gabbana"
+//          },
+//          "UrlSlug": "dolce-gabbana",
+//          "Priority": 16,
+//          "Image": "dolce_gabbana.jpg",
+//          "Description": {
+//            "uk": "Продукти бренду Dolce & Gabbana",
+//            "en": "Products of Dolce & Gabbana brand"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 140
+//        },
+//        {
+//          "Id": 157,
+//          "Name": {
+//            "uk": "Estee Lauder",
+//            "en": "Estee Lauder"
+//          },
+//          "UrlSlug": "estee-lauder",
+//          "Priority": 17,
+//          "Image": "estee_lauder.jpg",
+//          "Description": {
+//            "uk": "Продукти бренду Estee Lauder",
+//            "en": "Products of Estee Lauder brand"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 140
+//        },
+//        {
+//          "Id": 158,
+//          "Name": {
+//            "uk": "Fenty Beauty",
+//            "en": "Fenty Beauty"
+//          },
+//          "UrlSlug": "fenty-beauty",
+//          "Priority": 18,
+//          "Image": "fenty_beauty.jpg",
+//          "Description": {
+//            "uk": "Продукти бренду Fenty Beauty",
+//            "en": "Products of Fenty Beauty brand"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 140
+//        },
+//        {
+//          "Id": 159,
+//          "Name": {
+//            "uk": "Garnier",
+//            "en": "Garnier"
+//          },
+//          "UrlSlug": "garnier",
+//          "Priority": 19,
+//          "Image": "garnier.jpg",
+//          "Description": {
+//            "uk": "Продукти бренду Garnier",
+//            "en": "Products of Garnier brand"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 140
+//        },
+//        {
+//          "Id": 160,
+//          "Name": {
+//            "uk": "Guerlain",
+//            "en": "Guerlain"
+//          },
+//          "UrlSlug": "guerlain",
+//          "Priority": 20,
+//          "Image": "guerlain.jpg",
+//          "Description": {
+//            "uk": "Продукти бренду Guerlain",
+//            "en": "Products of Guerlain brand"
+//          },
+//          "IsDeleted": false,
+//          "DateCreated": "2025-03-25T00:00:00Z",
+//          "ParentId": 140
+//        }
+//      ]
+//    }
+//  ]
+//]

@@ -164,7 +164,7 @@ namespace WebApiDiploma.ServiceExtensions
             var categoryRepo = serviceProvider.GetService<IRepository<CategoryEntity>>();
             var categoryTranslationRepo = serviceProvider.GetService<IRepository<CategoryTranslationEntity>>();
 
-            if (categoryRepo is null || categoryTranslationRepo is null || await categoryRepo.AnyAsync())
+            if (categoryRepo is null ||categoryTranslationRepo is null || await categoryRepo.AnyAsync())
                 return;
 
             Console.WriteLine("Start categories seeder");
@@ -173,11 +173,11 @@ namespace WebApiDiploma.ServiceExtensions
                 Environment.CurrentDirectory,
                 "Helpers",
                 app.Configuration["SeederJsonDir"]!,
-                "Categories.json");
+                "Categories - Copy.json");
 
             if (!File.Exists(categoryJsonDataFile))
             {
-                Console.WriteLine("File \"Categories.json\" not found");
+                Console.WriteLine("File \"Categories - Copy.json\" not found");
                 return;
             }
 
