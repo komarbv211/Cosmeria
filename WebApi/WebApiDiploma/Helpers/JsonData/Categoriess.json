@@ -1,0 +1,326 @@
+﻿[
+  {
+    "Id": 1,
+    "Name": "Парфумерія",
+    "Description": "Всі види парфумерії",
+    "UrlSlug": "parfumeriya",
+    "Priority": 1,
+    "DateCreated": "2025-03-20T00:00:00Z",
+    "Translations": {
+      "uk": {
+        "Name": "Парфумерія",
+        "Description": "Всі види парфумерії"
+      },
+      "en": {
+        "Name": "Perfumery",
+        "Description": "All kinds of perfumery"
+      }
+    },
+    "Children": [
+      {
+        "Id": 2,
+        "Name": "Жіноча парфумерія",
+        "Description": "Парфуми для жінок",
+        "UrlSlug": "zhinocha-parfumeriya",
+        "Priority": 1,
+        "DateCreated": "2025-03-20T00:00:00Z",
+        "ParentId": 1,
+        "Translations": {
+          "uk": {
+            "Name": "Жіноча парфумерія",
+            "Description": "Парфуми для жінок"
+          },
+          "en": {
+            "Name": "Women's Perfumery",
+            "Description": "Perfumes for women"
+          }
+        }
+      },
+      {
+        "Id": 3,
+        "Name": "Чоловіча парфумерія",
+        "Description": "Парфуми для чоловіків",
+        "UrlSlug": "cholovicha-parfumeriya",
+        "Priority": 2,
+        "DateCreated": "2025-03-20T00:00:00Z",
+        "ParentId": 1,
+        "Translations": {
+          "uk": {
+            "Name": "Чоловіча парфумерія",
+            "Description": "Парфуми для чоловіків"
+          },
+          "en": {
+            "Name": "Men's Perfumery",
+            "Description": "Perfumes for men"
+          }
+        }
+      },
+      {
+        "Id": 4,
+        "Name": "Парфумерія унісекс",
+        "Description": "Парфуми для всіх",
+        "UrlSlug": "parfumeriya-unisex",
+        "Priority": 3,
+        "DateCreated": "2025-03-20T00:00:00Z",
+        "ParentId": 1,
+        "Translations": {
+          "uk": {
+            "Name": "Парфумерія унісекс",
+            "Description": "Парфуми для всіх"
+          },
+          "en": {
+            "Name": "Unisex Perfumery",
+            "Description": "Perfumes for everyone"
+          }
+        }
+      },
+      {
+        "Id": 5,
+        "Name": "Дитяча парфумерія",
+        "Description": "Парфуми для дітей",
+        "UrlSlug": "dityacha-parfumeriya",
+        "Priority": 4,
+        "DateCreated": "2025-03-20T00:00:00Z",
+        "ParentId": 1,
+        "Translations": {
+          "uk": {
+            "Name": "Дитяча парфумерія",
+            "Description": "Парфуми для дітей"
+          },
+          "en": {
+            "Name": "Children's Perfumery",
+            "Description": "Perfumes for children"
+          }
+        }
+      },
+      {
+        "Id": 6,
+        "Name": "Wonder Bundle",
+        "Description": "Набори для подарунків",
+        "UrlSlug": "wonder-bundle",
+        "Priority": 5,
+        "DateCreated": "2025-03-20T00:00:00Z",
+        "ParentId": 1,
+        "Translations": {
+          "uk": {
+            "Name": "Wonder Bundle",
+            "Description": "Набори для подарунків"
+          },
+          "en": {
+            "Name": "Wonder Bundle",
+            "Description": "Gift sets"
+          }
+        }
+      },
+      {
+        "Id": 7,
+        "Name": "Набори",
+        "Description": "Парфумерні набори",
+        "UrlSlug": "nabori",
+        "Priority": 6,
+        "DateCreated": "2025-03-20T00:00:00Z",
+        "ParentId": 1,
+        "Translations": {
+          "uk": {
+            "Name": "Набори",
+            "Description": "Парфумерні набори"
+          },
+          "en": {
+            "Name": "Sets",
+            "Description": "Perfume sets"
+          }
+        }
+      },
+      {
+        "Id": 8,
+        "Name": "Мініатюри",
+        "Description": "Мініатюрні парфуми",
+        "UrlSlug": "miniatyury",
+        "Priority": 7,
+        "DateCreated": "2025-03-20T00:00:00Z",
+        "ParentId": 1,
+        "Translations": {
+          "uk": {
+            "Name": "Мініатюри",
+            "Description": "Мініатюрні парфуми"
+          },
+          "en": {
+            "Name": "Miniatures",
+            "Description": "Mini perfume bottles"
+          }
+        }
+      },
+      {
+        "Id": 9,
+        "Name": "Парфумована вода",
+        "Description": "Парфумована вода",
+        "UrlSlug": "parfiumovana-voda",
+        "Priority": 8,
+        "DateCreated": "2025-03-20T00:00:00Z",
+        "ParentId": 1,
+        "Translations": {
+          "uk": {
+            "Name": "Парфумована вода",
+            "Description": "Парфумована вода"
+          },
+          "en": {
+            "Name": "Eau de Parfum",
+            "Description": "Eau de Parfum"
+          }
+        }
+      },
+      {
+        "Id": 10,
+        "Name": "Туалетна вода",
+        "Description": "Туалетна вода",
+        "UrlSlug": "tualetna-voda",
+        "Priority": 9,
+        "DateCreated": "2025-03-20T00:00:00Z",
+        "ParentId": 1,
+        "Translations": {
+          "uk": {
+            "Name": "Туалетна вода",
+            "Description": "Туалетна вода"
+          },
+          "en": {
+            "Name": "Eau de Toilette",
+            "Description": "Eau de Toilette"
+          }
+        }
+      },
+      {
+        "Id": 11,
+        "Name": "Одеколон",
+        "Description": "Одеколон",
+        "UrlSlug": "odekolon",
+        "Priority": 10,
+        "DateCreated": "2025-03-20T00:00:00Z",
+        "ParentId": 1,
+        "Translations": {
+          "uk": {
+            "Name": "Одеколон",
+            "Description": "Одеколон"
+          },
+          "en": {
+            "Name": "Cologne",
+            "Description": "Cologne"
+          }
+        }
+      },
+      {
+        "Id": 12,
+        "Name": "Масляні духи",
+        "Description": "Масляні духи",
+        "UrlSlug": "maslyani-duhi",
+        "Priority": 11,
+        "DateCreated": "2025-03-20T00:00:00Z",
+        "ParentId": 1,
+        "Translations": {
+          "uk": {
+            "Name": "Масляні духи",
+            "Description": "Масляні духи"
+          },
+          "en": {
+            "Name": "Oil Perfumes",
+            "Description": "Oil-based perfumes"
+          }
+        }
+      },
+      {
+        "Id": 13,
+        "Name": "Легкі весняні аромати",
+        "Description": "Легкі весняні аромати",
+        "UrlSlug": "light-spring-scents",
+        "Priority": 12,
+        "DateCreated": "2025-03-20T00:00:00Z",
+        "ParentId": 1,
+        "Translations": {
+          "uk": {
+            "Name": "Легкі весняні аромати",
+            "Description": "Легкі весняні аромати"
+          },
+          "en": {
+            "Name": "Light Spring Scents",
+            "Description": "Light spring fragrances"
+          }
+        }
+      },
+      {
+        "Id": 14,
+        "Name": "Елітна парфумерія",
+        "Description": "Елітні парфуми",
+        "UrlSlug": "elitna-parfumeriya",
+        "Priority": 13,
+        "DateCreated": "2025-03-20T00:00:00Z",
+        "ParentId": 1,
+        "Translations": {
+          "uk": {
+            "Name": "Елітна парфумерія",
+            "Description": "Елітні парфуми"
+          },
+          "en": {
+            "Name": "Luxury Perfumery",
+            "Description": "Luxury perfumes"
+          }
+        }
+      },
+      {
+        "Id": 15,
+        "Name": "Арабська парфумерія",
+        "Description": "Арабські парфуми",
+        "UrlSlug": "arabska-parfumeriya",
+        "Priority": 14,
+        "DateCreated": "2025-03-20T00:00:00Z",
+        "ParentId": 1,
+        "Translations": {
+          "uk": {
+            "Name": "Арабська парфумерія",
+            "Description": "Арабські парфуми"
+          },
+          "en": {
+            "Name": "Arabic Perfumery",
+            "Description": "Arabic perfumes"
+          }
+        }
+      },
+      {
+        "Id": 16,
+        "Name": "Атомайзери",
+        "Description": "Атомайзери для парфумів",
+        "UrlSlug": "atomayzery",
+        "Priority": 15,
+        "DateCreated": "2025-03-20T00:00:00Z",
+        "ParentId": 1,
+        "Translations": {
+          "uk": {
+            "Name": "Атомайзери",
+            "Description": "Атомайзери для парфумів"
+          },
+          "en": {
+            "Name": "Atomizers",
+            "Description": "Perfume atomizers"
+          }
+        }
+      },
+      {
+        "Id": 17,
+        "Name": "Аромати для дому",
+        "Description": "Аромати для дому",
+        "UrlSlug": "aromaty-dlya-domu",
+        "Priority": 16,
+        "DateCreated": "2025-03-20T00:00:00Z",
+        "ParentId": 1,
+        "Translations": {
+          "uk": {
+            "Name": "Аромати для дому",
+            "Description": "Аромати для дому"
+          },
+          "en": {
+            "Name": "Home Fragrances",
+            "Description": "Home fragrances"
+          }
+        }
+      }
+    ]
+  }
+]
